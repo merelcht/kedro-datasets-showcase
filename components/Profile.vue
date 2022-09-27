@@ -21,7 +21,7 @@ const img = "/"+props.name.toString().replace('\s+', '_').toLowerCase()+".png";
 
 <template>
 <div class="justify-center">
-<div class="w-24 shadow-lg">
+<div class="w-20 shadow-lg">
     <div class="bg-dark-500 rounded-lg flex flex-col">
     <span class="relative left-14 -top-1">
     <a :href="gh" target="_blank"
