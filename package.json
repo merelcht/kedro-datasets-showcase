@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.27.20",
+    "@slidev/theme-apple-basic": "^0.20.0",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "name": "kedro-ds-showcase",
+  "devDependencies": {
+    "@iconify-json/emojione": "^1.1.2",
+    "@iconify-json/fxemoji": "^1.1.2",
+    "@iconify-json/ic": "^1.1.9",
+    "@iconify-json/twemoji": "^1.1.5"
+  }
+}
