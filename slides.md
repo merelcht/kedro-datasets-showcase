@@ -89,7 +89,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 
 ## What have the team been cooking recently 👩‍🍳?
 
-<h3> Recently, we have rewritten how Kedro works behind the scenes <ic-baseline-auto-fix-high class="inline"/><br>Since December 2020 🎄 we have released versions <kbd>0.17.0</kbd>, <kbd>0.17.1</kbd>, <kbd>0.17.2</kbd>, <kbd>0.17.3</kbd> and <kbd>0.17.4</kbd></h3>
+<h3> Recently, we have [] <ic-baseline-auto-fix-high class="inline"/><br>Since March this year we have released versions <kbd>0.18.0</kbd>, <kbd>0.18.1</kbd>, <kbd>0.18.2</kbd>, and <kbd>0.18.3</kbd> 🎉
 <div class="grid grid-cols-4 mt-3">
 
   <div class="w-50 m-2">
