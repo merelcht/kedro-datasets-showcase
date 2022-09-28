@@ -51,7 +51,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
       <div class="flex p-2 gap-2">
          <div><Profile name="Ivan" role="Tech lead" github="idanov" country="🇧🇬"/></div>
          <div><Profile name="Yetu" role="Product Lead" github="yetudada" country="🇿🇦"/></div>
-         <div><Profile name="Nero" role="Product" github="NeroOkwa" country=""/></div>
+         <div><Profile name="Nero" role="Product" github="NeroOkwa" country="🇳🇬"/></div>
          <div><Profile name="Jo" role="Tech Writer" github="stichbury" country="🏴󠁧󠁢󠁷󠁬󠁳󠁿"/></div>
      </div>
      </div>
@@ -62,7 +62,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
       <div><Profile name="Tynan" role="Tech lead" github="tynandebold" country="🇺🇸"/></div>
       <div><Profile name="Rashida" role="SWE" country="🇮🇳" github="rashidakanchwala"/></div> 
       <div><Profile name="Huong" role="SWE" country="🇻🇳" github="Huongg"/></div> 
-      <div><Profile name="Cvetanka" role="SWE" country="" github="cvetankanechevska"/></div> 
+      <div><Profile name="Cvetanka" role="SWE" country="🇲🇰" github="cvetankanechevska"/></div> 
       <div><Profile name="Gabriel" role="Visual Designer"  country="🇧🇷" github="GabrielComymQB"/></div>
       <div><Profile name="Andrew" role="Design Research" github="Mackay031" country="🇿🇦"/></div>
   </div></div></div>
@@ -74,10 +74,10 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
       <div><Profile name="Merel" role="Tech Lead" github="MerelTheisenQB" country="🇳🇱"/></div>
       <div><Profile name="Antony" role="DS SWE" github="AntonyMilneQB" country="🇬🇧"/></div>
       <div><Profile name="Nok" role="SWE" github="noklam" country="🇭🇰"/></div>
-      <div><Profile name="Ahdra" role="SWE" github="AhdraMeraliQB" country=""/></div>
-      <div><Profile name="Sajid" role="SWE" github="SajidAlamQB" country=""/></div>
-      <div><Profile name="Ankita" role="SWE" github="ankatiyar" country=""/></div>
-      <div><Profile name="Jannic" role="SWE" github="jmholzer" country=""/></div>
+      <div><Profile name="Ahdra" role="SWE" github="AhdraMeraliQB" country="🇰🇪"/></div>
+      <div><Profile name="Sajid" role="SWE" github="SajidAlamQB" country="🇬🇧"/></div>
+      <div><Profile name="Ankita" role="SWE" github="ankatiyar" country="🇮🇳"/></div>
+      <div><Profile name="Jannic" role="SWE" github="jmholzer" country="🇬🇧"/></div>
     </div>
   </div>
 </div>
