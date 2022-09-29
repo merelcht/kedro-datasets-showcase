@@ -120,7 +120,7 @@ Here's a look at some of the things we've done:</h3>
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
       <la-cash-register class="text-3em m-auto mt-2 -mb-2 h-10 text-pink-400"/>
         <p class="text-center text-0.8em">
-          Jupyter and iPython <!--integration-->
+          Improved interactive workflow
         </p>
     </div>
   </div>
