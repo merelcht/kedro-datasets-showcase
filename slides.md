@@ -100,7 +100,7 @@ Here's a look at some of the things we've done:</h3>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <fxemoji-tapecartridge class="text-3em m-auto mt-2 -mb-2 h-10"/>
+      <logos-python class="text-3em m-auto mt-2 -mb-2 h-10"/>
         <p class="text-center text-0.8em">
           Support for Python 3.9 & 3.10
         </p>
@@ -109,7 +109,7 @@ Here's a look at some of the things we've done:</h3>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-        <twemoji-sleeping-face class="text-3em m-auto mt-2 -mb-2 h-10"/>
+        <iconoir-packages class="text-3em m-auto mt-2 -mb-2 h-10 text-purple-400"/>
         <p class="text-center text-0.8em">
           Micropackaging workflow
       </p>
@@ -118,7 +118,7 @@ Here's a look at some of the things we've done:</h3>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
-      <la-cash-register class="text-3em m-auto mt-2 -mb-2 h-10 text-pink-400"/>
+      <vaadin-file-tree-sub class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-400"/>
         <p class="text-center text-0.8em">
           Improved interactive workflow
         </p>
@@ -131,7 +131,7 @@ Here's a look at some of the things we've done:</h3>
 <div class="grid grid-cols-4">
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-     <simple-icons-fastapi class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
+     <mdi-hook class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
         <p class="text-center text-0.8em">
           Added hooks
         </p>
@@ -140,7 +140,7 @@ Here's a look at some of the things we've done:</h3>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <simple-icons-plotly class="text-3em m-auto mt-2 -mb-2 h-10 text-purple-400"/>
+      <carbon-terminal class="text-3em m-auto mt-2 -mb-2 h-10 text-yellow-300"/>
         <p class="text-center text-0.8em">
           Rich logs 
         </p>
@@ -149,7 +149,7 @@ Here's a look at some of the things we've done:</h3>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
-      <dashicons-media-code class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-200"/>
+      <lucide-file-json-2 class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-200"/>
       <p class="text-center text-0.8em">
         More/Moar datasets
       </p>
@@ -158,7 +158,7 @@ Here's a look at some of the things we've done:</h3>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-     <vaadin-file-tree-sub class="text-3em m-auto mt-2 -mb-2 h-10 text-yellow-400"/>
+     <ant-design-file-search-outlined class="text-3em m-auto mt-2 -mb-2 h-10 text-pink-400"/>
         <p class="text-center text-0.8em">
           Pipeline autodiscovery
         </p>
@@ -170,7 +170,7 @@ Here's a look at some of the things we've done:</h3>
 <div class="grid grid-cols-4">
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-    <file-icons-jinja class="text-3em m-auto mt-2 -mb-2 h-10 text-red-400"/>
+    <codicon-graph class="text-3em m-auto mt-2 -mb-2 h-10 text-red-400"/>
       <p class="text-center text-0.8em">
         Plots in experiment tracking
       </p>
@@ -179,7 +179,7 @@ Here's a look at some of the things we've done:</h3>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <fxemoji-present class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
+      <mdi-graph-outline class="text-3em m-auto mt-2 -mb-2 h-10 text-orange-400"/>
         <p class="text-center text-0.8em">
           Export runs from Viz
         </p>
@@ -188,7 +188,7 @@ Here's a look at some of the things we've done:</h3>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
-     <carbon-terminal class="text-3em m-auto mt-2 -mb-2 h-10 text-gray-100"/>
+     <div class="text-3em m-auto mt-2 -mb-2 h-10 text-gray-100"> <img class="w-10 h10" src="/public/kedroid.png"/> </div>
         <p class="text-center text-0.8em">
           New website
         </p>
