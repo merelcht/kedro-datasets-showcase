@@ -80,8 +80,6 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
   </div>
 </div>
 
-<Socials />
-
 
 ---
 
