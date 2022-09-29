@@ -9,11 +9,6 @@ image: background.png
 
 <div grid="~ cols-2 gap-4">
 <div class="pt-12">
-<p class="">
-  <span @click="$slidev.nav.next" class="p-2 rounded cursor-pointer bg-dark-900 m-2 bg-opacity-60" hover="bg-white bg-opacity-10">
-    Press <kbd>space</kbd> for next page <carbon:arrow-right class="inline"/>
-  </span>
-  </p>
   <div abs class="abs-bl ml-5 text-gray-500"><p class="text-xs">Best viewed in Dark mode, set it here:  <SetDarkMode/></p></div>
 </div>
 <div class="w-130"><KedroIcon /></div>
