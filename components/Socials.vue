@@ -36,7 +36,7 @@
         >
           <KedroIcon class="w-6 h-6 inline rounded-full bg-black" />
         </a>
-        <p class="text-0.6em inline">Kedro Showcase October 2022</p>
+        <p class="text-0.4em inline">Kedro Showcase October 2022</p>
     </div>
   </span>
 </template>
