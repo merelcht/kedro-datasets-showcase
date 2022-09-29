@@ -34,9 +34,9 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 
 <ul>
   <li><span @click="$slidev.nav.go(3)" hover="bg-white bg-opacity-10 rounded">🤖 Meet the team</span></li>
-  <li><span @click="$slidev.nav.go(5)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
-  <li><span @click="$slidev.nav.go(6)" hover="bg-white bg-opacity-10 rounded">💿 Changes to Datasets</span></li>
-  <li><span>📣 Feedback + Q&A</span></li>
+  <li><span @click="$slidev.nav.go(4)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
+  <li><span @click="$slidev.nav.go(5)" hover="bg-white bg-opacity-10 rounded">💿 Changes to Datasets</span></li>
+  <li><span @click="$slidev.nav.go(7)">📣 Feedback + Q&A</span></li>
 </ul>
 
 <Socials />
@@ -78,6 +78,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
       <div><Profile name="Sajid" role="SWE" github="SajidAlamQB" country="🇬🇧"/></div>
       <div><Profile name="Ankita" role="SWE" github="ankatiyar" country="🇮🇳"/></div>
       <div><Profile name="Jannic" role="SWE" github="jmholzer" country="🇬🇧"/></div>
+      <div><Profile name="Deepyaman" role="SWE" github="deepyaman" country="🇺🇸"></div>
     </div>
   </div>
 </div>
@@ -105,7 +106,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
       <fxemoji-tapecartridge class="text-3em m-auto mt-2 -mb-2 h-10"/>
         <p class="text-center text-0.8em">
-          <kbd>KedroSession</kbd> introduced
+          Support for Python <kbd>3.9</kbd> and <kbd>3.10</kbd>
         </p>
     </div>
   </div>
@@ -114,7 +115,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
         <twemoji-sleeping-face class="text-3em m-auto mt-2 -mb-2 h-10"/>
         <p class="text-center text-0.8em">
-          Lazy <kbd>Pipeline</kbd> loads
+          Micropackaging workflow
       </p>
     </div>
   </div>
@@ -123,7 +124,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
       <la-cash-register class="text-3em m-auto mt-2 -mb-2 h-10 text-pink-400"/>
         <p class="text-center text-0.8em">
-          Pipeline registry
+          Jupyter and iPython integration
         </p>
     </div>
   </div>
@@ -136,7 +137,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
      <simple-icons-fastapi class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
         <p class="text-center text-0.8em">
-          FastAPI Viz backend
+          Added hooks
         </p>
     </div>
   </div>
@@ -145,7 +146,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
       <simple-icons-plotly class="text-3em m-auto mt-2 -mb-2 h-10 text-purple-400"/>
         <p class="text-center text-0.8em">
-          Plotly dataset 
+          Rich logs 
         </p>
     </div>
   </div>
@@ -154,7 +155,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
       <dashicons-media-code class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-200"/>
       <p class="text-center text-0.8em">
-        Code panel
+        More/Moar datasets
       </p>
     </div>
   </div>
@@ -163,7 +164,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
      <vaadin-file-tree-sub class="text-3em m-auto mt-2 -mb-2 h-10 text-yellow-400"/>
         <p class="text-center text-0.8em">
-          Visual modular pipelines
+          Pipeline autodiscovery
         </p>
     </div>
   </div>
@@ -175,7 +176,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
     <file-icons-jinja class="text-3em m-auto mt-2 -mb-2 h-10 text-red-400"/>
       <p class="text-center text-0.8em">
-        Jinja2 templating
+        Plots in experiment tracking
       </p>
     </div>
   </div>
@@ -184,7 +185,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
       <fxemoji-present class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
         <p class="text-center text-0.8em">
-          Improved packaging
+          Export runs from Viz
         </p>
     </div>
   </div>
@@ -193,7 +194,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
      <carbon-terminal class="text-3em m-auto mt-2 -mb-2 h-10 text-gray-100"/>
         <p class="text-center text-0.8em">
-          Extensible CLI commands
+          New website
         </p>
     </div>
   </div>
