@@ -9,12 +9,12 @@
       <carbon-logo-python />
     </a>
     <a
-      href="https://discord.gg/akJDeVaxnB"
+      href="https://join.slack.com/t/kedro-org/shared_invite/zt-1gcwbuhrb-r3a5wF~aeGrIbwMk~QI1Mw"
       target="_blank"
-      alt="Discord"
+      alt="Slack"
       class="icon-btn opacity-80 rounded-full !border-none !hover:text-white fill-current text-purple-300"
     >
-      <carbon-logo-discord />
+      <carbon-logo-slack />
     </a>
     <a
       href="https://github.com/kedro-org/kedro"
