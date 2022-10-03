@@ -19,7 +19,7 @@ image: background.png
 theme: apple-basic
 class: text-left
 highlighter: shiki
-layout: iframe-right
+layout: nok
 url: https://demo.kedro.org/
 ---
 
@@ -50,19 +50,19 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
          <div><Profile name="Jo" role="Tech Writer" github="stichbury" country="🏴󠁧󠁢󠁷󠁬󠁳󠁿"/></div>
      </div>
      </div>
-  
+
   <div class="p-1">
      <div><h3>Viz team</h3></div>
      <div class="flex p-2 gap-2">
       <div><Profile name="Tynan" role="Tech lead" github="tynandebold" country="🇺🇸"/></div>
-      <div><Profile name="Rashida" role="SWE" country="🇮🇳" github="rashidakanchwala"/></div> 
-      <div><Profile name="Huong" role="SWE" country="🇻🇳" github="Huongg"/></div> 
-      <div><Profile name="Cvetanka" role="SWE" country="🇲🇰" github="cvetankanechevska"/></div> 
+      <div><Profile name="Rashida" role="SWE" country="🇮🇳" github="rashidakanchwala"/></div>
+      <div><Profile name="Huong" role="SWE" country="🇻🇳" github="Huongg"/></div>
+      <div><Profile name="Cvetanka" role="SWE" country="🇲🇰" github="cvetankanechevska"/></div>
       <div></div>
       <div><Profile name="Gabriel" role="Visual Designer"  country="🇧🇷" github="GabrielComymQB"/></div>
       <div><Profile name="Andrew" role="Design Research" github="Mackay031" country="🇿🇦"/></div>
   </div></div></div>
-  
+
   <div class="flex">
   <div class="p-1">
     <div><h3>Framework team</h3></div>
@@ -151,7 +151,7 @@ Here's a look at some of the things we've done:</h3>
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
       <carbon-terminal class="text-3em m-auto mt-2 -mb-2 h-10 text-orange-400"/>
         <p class="text-center text-0.8em">
-          Rich logs 
+          Rich logs
         </p>
     </div>
   </div>
@@ -231,7 +231,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 
 - `kedro ipython` launches an IPython session that preloads the Kedro IPython extension.
 
-- `kedro jupyter notebook/lab` creates a custom Jupyter kernel that preloads the Kedro IPython extension and launches a notebook with that kernel selected. 
+- `kedro jupyter notebook/lab` creates a custom Jupyter kernel that preloads the Kedro IPython extension and launches a notebook with that kernel selected.
 
 - There is no longer a need to specify `--all-kernels` to show all available kernel
 
@@ -254,7 +254,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 <div id="padding" class="m-10">
 </div>
 
-- A pipeline created with `kedro pipeline create <pipeline_name>` can now be accessed immediately without needing to explicitly register it in `src/<package_name>/pipeline_registry.py`, either individually by name (e.g. `kedro run --pipeline=<pipeline_name>`) or as part of the combined default pipeline (e.g. `kedro run`). 
+- A pipeline created with `kedro pipeline create <pipeline_name>` can now be accessed immediately without needing to explicitly register it in `src/<package_name>/pipeline_registry.py`, either individually by name (e.g. `kedro run --pipeline=<pipeline_name>`) or as part of the combined default pipeline (e.g. `kedro run`).
 
 <Socials />
 
@@ -275,7 +275,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 </div>
 
 - Rich is an open source blah blah filler
-  
+
 - Kedro now supports Rich logging, which turns our logs and tracebacks from boring and hard-to-read to pretty and colourful :rainbow:
 - See image (or gif!) for example
 
@@ -315,7 +315,7 @@ url: https://kedro.org/
 <div id="padding" class="m-6">
 </div>
 
-Look, it's a website! Check it out! 
+Look, it's a website! Check it out!
 
 <Socials />
 
@@ -324,7 +324,7 @@ Look, it's a website! Check it out!
 <p id="heading" class="text-1.3em"> <logos-slack-icon class=" m-auto mr-5 ml-2"/> Kedro on Slack</p>
 
 <style>
-  
+
   #main {
     font-size: 0.8em;
     text-align: center;
@@ -377,7 +377,7 @@ interface User {
 
 function updateUser(id: number, update: User) {
   const user = getUser(id)
-  const newUser = {...user, ...update}  
+  const newUser = {...user, ...update}
   saveUser(id, newUser)
 }
 ```
