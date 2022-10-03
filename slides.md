@@ -211,23 +211,23 @@ Here's a look at some of the things we've done:</h3>
 
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 ---
 <p class="text-1.3em"> <vaadin-file-tree-sub class=" m-auto mr-5 ml-2 text-blue-400"/> Improved interactive workflow</p>
 
 <style>
-  ul {
-    list-style-type: circle;
+  li {
     font-size: 0.8em;
+    list-style-type: circle;
   }
 </style>
 
-<div id="padding" class="m-6">
+<div id="padding" class="m-8">
 </div>
 
 - The only recommended way to work with Kedro in Jupyter or IPython is now the Kedro IPython extension.
 
-- Managed Jupyter instances should load this via `%load_ext kedro.extras.extensions.ipython` and use the line magic `%reload_kedro`.
+- Managed Jupyter instances should load this via `%load_ext kedro.ipython` and use the line magic `%reload_kedro`.
 
 - `kedro ipython` launches an IPython session that preloads the Kedro IPython extension.
 
@@ -239,37 +239,64 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 <Socials />
 
 ---
+layout: image-left
+image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
+---
 
 <p class="text-1.3em"> <ant-design-file-search-outlined class=" m-auto mr-5 ml-2 text-blue-200"/> Pipeline autodiscovery</p>
 
 <style>
-  ul {
+  li {
     list-style-type: circle
   }
 </style>
 
+<div id="padding" class="m-10">
+</div>
+
+- A pipeline created with `kedro pipeline create <pipeline_name>` can now be accessed immediately without needing to explicitly register it in `src/<package_name>/pipeline_registry.py`, either individually by name (e.g. `kedro run --pipeline=<pipeline_name>`) or as part of the combined default pipeline (e.g. `kedro run`). 
+
 <Socials />
 
+---
+layout: image-right
+image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 ---
 
 <p class="text-1.3em"> <carbon-terminal class=" m-auto mr-5 ml-2 text-orange-400"/> Rich logs</p>
 
 <style>
-  ul {
+  li {
     list-style-type: circle
   }
 </style>
 
+<div id="padding" class="m-6">
+</div>
+
+- Rich is an open source blah blah filler
+  
+- Kedro now supports Rich logging, which turns our logs and tracebacks from boring and hard-to-read to pretty and colourful :rainbow:
+- See image (or gif!) for example
+
 <Socials />
+---
+layout: iframe-left
+url: https://demo.kedro.org/experiment-tracking
 ---
 
 <p class="text-1.3em"> <codicon-graph class=" m-auto mr-5 ml-2 text-red-400"/> Plots on Experiment Tracking</p>
 
 <style>
-  ul {
+  li {
     list-style-type: circle
   }
 </style>
+
+<div id="padding" class="m-6">
+</div>
+
+- < Steal explanation from the docs\>
 
 <Socials />
 
@@ -280,22 +307,45 @@ url: https://kedro.org/
 <p class="text-1.3em"><img class="m-auto mr-5 ml-2 w-10 h10 display-inline" src="/public/kedroid.png"/> New Website</p>
 
 <style>
-  ul {
+  li {
     list-style-type: circle
   }
 </style>
+
+<div id="padding" class="m-6">
+</div>
+
+Look, it's a website! Check it out! 
 
 <Socials />
 
 ---
 
-<p class="text-1.3em"> <logos-slack-icon class=" m-auto mr-5 ml-2"/> Kedro on Slack</p>
+<p id="heading" class="text-1.3em"> <logos-slack-icon class=" m-auto mr-5 ml-2"/> Kedro on Slack</p>
 
 <style>
-  ul {
+  
+  #main {
+    font-size: 0.8em;
+    text-align: center;
+
+  }
+  li {
     list-style-type: circle
   }
 </style>
+
+<div id="padding" class="m-6">
+</div>
+
+<img src="https://demo.kedro.org" alt="Kedro slack invite QR code" class="w-60 h-60"/>
+
+<p id="main">
+We have launched a Kedro Slack organisation, and you should join it
+
+You'll be able to collaborate and learn from our 800+ member open-source community that we will also migrate to this new location. Join the new Slack organisation :tada:
+</p>
+
 
 <Socials />
 
