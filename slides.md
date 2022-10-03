@@ -140,7 +140,16 @@ Here's a look at some of the things we've done:</h3>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <carbon-terminal class="text-3em m-auto mt-2 -mb-2 h-10 text-yellow-300"/>
+     <ant-design-file-search-outlined class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-200"/>
+        <p class="text-center text-0.8em">
+          Pipeline autodiscovery
+        </p>
+    </div>
+  </div>
+
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+      <carbon-terminal class="text-3em m-auto mt-2 -mb-2 h-10 text-orange-400"/>
         <p class="text-center text-0.8em">
           Rich logs 
         </p>
@@ -148,19 +157,10 @@ Here's a look at some of the things we've done:</h3>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between">
-      <lucide-file-json-2 class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-200"/>
-      <p class="text-center text-0.8em">
-        More/Moar datasets
-      </p>
-    </div>
-  </div>
-
-  <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-     <ant-design-file-search-outlined class="text-3em m-auto mt-2 -mb-2 h-10 text-pink-400"/>
+      <mdi-graph-outline class="text-3em m-auto mt-2 -mb-2 h-10 text-pink-400"/>
         <p class="text-center text-0.8em">
-          Pipeline autodiscovery
+          Export runs from Viz
         </p>
     </div>
   </div>
@@ -178,20 +178,20 @@ Here's a look at some of the things we've done:</h3>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <mdi-graph-outline class="text-3em m-auto mt-2 -mb-2 h-10 text-orange-400"/>
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between">
+     <div class="text-3em m-auto mt-2 -mb-2 h-10 text-gray-100"> <img class="w-10 h10" src="/public/kedroid.png"/> </div>
         <p class="text-center text-0.8em">
-          Export runs from Viz
+          New website
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
-     <div class="text-3em m-auto mt-2 -mb-2 h-10 text-gray-100"> <img class="w-10 h10" src="/public/kedroid.png"/> </div>
-        <p class="text-center text-0.8em">
-          New website
-        </p>
+      <logos-slack-icon class="text-3em m-auto mt-2 -mb-2 h-10"/>
+      <p class="text-center text-0.8em">
+        Kedro on Slack!
+      </p>
     </div>
   </div>
 
