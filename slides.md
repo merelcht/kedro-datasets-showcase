@@ -210,37 +210,104 @@ Here's a look at some of the things we've done:</h3>
 <Socials />
 
 ---
+layout: image-right
+image: https://source.unsplash.com/collection/94734566/1920x1080
+---
+<p class="text-1.3em"> <vaadin-file-tree-sub class=" m-auto mr-5 ml-2 text-blue-400"/> Improved interactive workflow</p>
 
-<h1> <vaadin-file-tree-sub class=" m-auto mr-5 ml-2 text-blue-400"/> Improved interactive workflow</h1>
+<style>
+  ul {
+    list-style-type: circle;
+    font-size: 0.8em;
+  }
+</style>
+
+<div id="padding" class="m-6">
+</div>
+
+- The only recommended way to work with Kedro in Jupyter or IPython is now the Kedro IPython extension.
+
+- Managed Jupyter instances should load this via `%load_ext kedro.extras.extensions.ipython` and use the line magic `%reload_kedro`.
+
+- `kedro ipython` launches an IPython session that preloads the Kedro IPython extension.
+
+- `kedro jupyter notebook/lab` creates a custom Jupyter kernel that preloads the Kedro IPython extension and launches a notebook with that kernel selected. 
+
+- There is no longer a need to specify `--all-kernels` to show all available kernel
+
+
+<Socials />
 
 ---
 
-<h1> <ant-design-file-search-outlined class=" m-auto mr-5 ml-2 text-blue-200"/> Pipeline autodiscovery</h1>
+<p class="text-1.3em"> <ant-design-file-search-outlined class=" m-auto mr-5 ml-2 text-blue-200"/> Pipeline autodiscovery</p>
+
+<style>
+  ul {
+    list-style-type: circle
+  }
+</style>
+
+<Socials />
 
 ---
 
-<h1> <carbon-terminal class=" m-auto mr-5 ml-2 text-orange-400"/> Rich logs</h1>
+<p class="text-1.3em"> <carbon-terminal class=" m-auto mr-5 ml-2 text-orange-400"/> Rich logs</p>
 
+<style>
+  ul {
+    list-style-type: circle
+  }
+</style>
+
+<Socials />
 ---
 
-<h1> <codicon-graph class=" m-auto mr-5 ml-2 text-red-400"/> Plots on Experiment Tracking</h1>
+<p class="text-1.3em"> <codicon-graph class=" m-auto mr-5 ml-2 text-red-400"/> Plots on Experiment Tracking</p>
+
+<style>
+  ul {
+    list-style-type: circle
+  }
+</style>
+
+<Socials />
 
 ---
-layout: iframe
+layout: iframe-right
 url: https://kedro.org/
 ---
-<h1><img class="m-auto mr-5 ml-2 w-10 h10 display-inline" src="/public/kedroid.png"/> New Website</h1>
+<p class="text-1.3em"><img class="m-auto mr-5 ml-2 w-10 h10 display-inline" src="/public/kedroid.png"/> New Website</p>
+
+<style>
+  ul {
+    list-style-type: circle
+  }
+</style>
+
+<Socials />
 
 ---
 
-<h1> <logos-slack-icon class=" m-auto mr-5 ml-2"/> Kedro on Slack</h1>
+<p class="text-1.3em"> <logos-slack-icon class=" m-auto mr-5 ml-2"/> Kedro on Slack</p>
 
-<!--Mention Hacktoberfest-->
+<style>
+  ul {
+    list-style-type: circle
+  }
+</style>
+
+<Socials />
+
+<!--
+Mention Hacktoberfest
+-->
 
 ---
 
 # Placeholder slide - What has the community been up to?
 
+<Socials />
 ---
 layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080

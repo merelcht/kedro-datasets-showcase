@@ -12,9 +12,9 @@
       href="https://join.slack.com/t/kedro-org/shared_invite/zt-1h262h3k1-kyTVviEsBtkPa3lD4qexMQ"
       target="_blank"
       alt="Discord"
-      class="icon-btn opacity-80 rounded-full !border-none !hover:text-white fill-current text-purple-300"
+      class="icon-btn opacity-80 rounded-full !border-none !hover:text-white fill-current"
     >
-      <carbon-logo-slack />
+      <logos-slack-icon />
     </a>
     <a
       href="https://github.com/kedro-org/kedro"
