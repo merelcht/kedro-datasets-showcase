@@ -209,6 +209,32 @@ Here's a look at some of the things we've done:</h3>
 
 <Socials />
 
+---
+
+# Placeholder slide - iPython
+---
+
+# Placeholder slide - Rich
+
+---
+
+# Placeholder slide - Pipeline autodiscovery
+
+---
+
+# Placeholder slide - Plots on exp tracking
+
+---
+
+
+# Placeholder slide - Website
+---
+
+# Placeholder slide - Slack
+
+---
+
+# Placeholder slide - What has the community been up to?
 
 ---
 layout: image-right
@@ -249,6 +275,19 @@ function updateUser(id: number, update: User) {
   display: none;
 }
 </style>
+
+---
+
+# Datasets: Placeholder Slide 1
+
+[TBC]
+
+
+---
+
+# Datasets: Placeholder Slide 2
+
+[TBC]
 
 ---
 
