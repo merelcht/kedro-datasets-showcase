@@ -9,11 +9,6 @@ image: background.png
 
 <div grid="~ cols-2 gap-4">
 <div class="pt-12">
-<p class="">
-  <span @click="$slidev.nav.next" class="p-2 rounded cursor-pointer bg-dark-900 m-2 bg-opacity-60" hover="bg-white bg-opacity-10">
-    Press <kbd>space</kbd> for next page <carbon:arrow-right class="inline"/>
-  </span>
-  </p>
   <div abs class="abs-bl ml-5 text-gray-500"><p class="text-xs">Best viewed in Dark mode, set it here:  <SetDarkMode/></p></div>
 </div>
 <div class="w-130"><KedroIcon /></div>
@@ -34,9 +29,9 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 
 <ul>
   <li><span @click="$slidev.nav.go(3)" hover="bg-white bg-opacity-10 rounded">🤖 Meet the team</span></li>
-  <li><span @click="$slidev.nav.go(5)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
-  <li><span @click="$slidev.nav.go(6)" hover="bg-white bg-opacity-10 rounded">💿 Changes to Datasets</span></li>
-  <li><span>📣 Feedback + Q&A</span></li>
+  <li><span @click="$slidev.nav.go(4)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
+  <li><span @click="$slidev.nav.go(5)" hover="bg-white bg-opacity-10 rounded">💿 Changes to Datasets</span></li>
+  <li><span @click="$slidev.nav.go(7)">📣 Feedback + Q&A</span></li>
 </ul>
 
 <Socials />
@@ -63,6 +58,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
       <div><Profile name="Rashida" role="SWE" country="🇮🇳" github="rashidakanchwala"/></div> 
       <div><Profile name="Huong" role="SWE" country="🇻🇳" github="Huongg"/></div> 
       <div><Profile name="Cvetanka" role="SWE" country="🇲🇰" github="cvetankanechevska"/></div> 
+      <div></div>
       <div><Profile name="Gabriel" role="Visual Designer"  country="🇧🇷" github="GabrielComymQB"/></div>
       <div><Profile name="Andrew" role="Design Research" github="Mackay031" country="🇿🇦"/></div>
   </div></div></div>
@@ -71,25 +67,26 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
   <div class="p-1">
     <div><h3>Framework team</h3></div>
     <div class="flex p-2 gap-2">
-      <div><Profile name="Merel" role="Tech Lead" github="MerelTheisenQB" country="🇳🇱"/></div>
-      <div><Profile name="Antony" role="DS SWE" github="AntonyMilneQB" country="🇬🇧"/></div>
-      <div><Profile name="Nok" role="SWE" github="noklam" country="🇭🇰"/></div>
-      <div><Profile name="Ahdra" role="SWE" github="AhdraMeraliQB" country="🇰🇪"/></div>
-      <div><Profile name="Sajid" role="SWE" github="SajidAlamQB" country="🇬🇧"/></div>
-      <div><Profile name="Ankita" role="SWE" github="ankatiyar" country="🇮🇳"/></div>
-      <div><Profile name="Jannic" role="SWE" github="jmholzer" country="🇬🇧"/></div>
+      <div><FrameworkProfile name="Merel" role="Tech Lead" github="MerelTheisenQB" country="🇳🇱"/></div>
+      <div><FrameworkProfile name="Antony" role="DS SWE" github="AntonyMilneQB" country="🇬🇧"/></div>
+      <div><FrameworkProfile name="Nok" role="SWE" github="noklam" country="🇭🇰"/></div>
+      <div><FrameworkProfile name="Ahdra" role="SWE" github="AhdraMeraliQB" country="🇰🇪"/></div>
+      <div><FrameworkProfile name="Sajid" role="SWE" github="SajidAlamQB" country="🇬🇧"/></div>
+      <div><FrameworkProfile name="Ankita" role="SWE" github="ankatiyar" country="🇮🇳"/></div>
+      <div><FrameworkProfile name="Jannic" role="SWE" github="jmholzer" country="🇬🇧"/></div>
+      <div><FrameworkProfile name="Deepyaman" role="DS SWE" github="deepyaman" country="🇺🇸"/></div>
     </div>
+    <div class="pb-5"></div>
   </div>
 </div>
-
-<Socials />
 
 
 ---
 
 ## What have the team been cooking recently 👩‍🍳?
 
-<h3> Recently, we have rewritten how Kedro works behind the scenes <ic-baseline-auto-fix-high class="inline"/><br>Since December 2020 🎄 we have released versions <kbd>0.17.0</kbd>, <kbd>0.17.1</kbd>, <kbd>0.17.2</kbd>, <kbd>0.17.3</kbd> and <kbd>0.17.4</kbd></h3>
+<h3> <br>Since March this year we have released versions <kbd>0.18.0</kbd>, <kbd>0.18.1</kbd>, <kbd>0.18.2</kbd>, and <kbd>0.18.3</kbd> 🎉<br>
+Here's a look at some of the things we've done:</h3>
 <div class="grid grid-cols-4 mt-3">
 
   <div class="w-50 m-2">
@@ -103,27 +100,27 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <fxemoji-tapecartridge class="text-3em m-auto mt-2 -mb-2 h-10"/>
+      <logos-python class="text-3em m-auto mt-2 -mb-2 h-10"/>
         <p class="text-center text-0.8em">
-          <kbd>KedroSession</kbd> introduced
+          Support for Python 3.9 & 3.10
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-        <twemoji-sleeping-face class="text-3em m-auto mt-2 -mb-2 h-10"/>
+        <iconoir-packages class="text-3em m-auto mt-2 -mb-2 h-10 text-purple-400"/>
         <p class="text-center text-0.8em">
-          Lazy <kbd>Pipeline</kbd> loads
+          Micropackaging workflow
       </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
-      <la-cash-register class="text-3em m-auto mt-2 -mb-2 h-10 text-pink-400"/>
+      <vaadin-file-tree-sub class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-400"/>
         <p class="text-center text-0.8em">
-          Pipeline registry
+          Improved interactive workflow
         </p>
     </div>
   </div>
@@ -134,36 +131,36 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 <div class="grid grid-cols-4">
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-     <simple-icons-fastapi class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
+     <mdi-hook class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
         <p class="text-center text-0.8em">
-          FastAPI Viz backend
+          Added hooks
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <simple-icons-plotly class="text-3em m-auto mt-2 -mb-2 h-10 text-purple-400"/>
+      <carbon-terminal class="text-3em m-auto mt-2 -mb-2 h-10 text-yellow-300"/>
         <p class="text-center text-0.8em">
-          Plotly dataset 
+          Rich logs 
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
-      <dashicons-media-code class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-200"/>
+      <lucide-file-json-2 class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-200"/>
       <p class="text-center text-0.8em">
-        Code panel
+        More/Moar datasets
       </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-     <vaadin-file-tree-sub class="text-3em m-auto mt-2 -mb-2 h-10 text-yellow-400"/>
+     <ant-design-file-search-outlined class="text-3em m-auto mt-2 -mb-2 h-10 text-pink-400"/>
         <p class="text-center text-0.8em">
-          Visual modular pipelines
+          Pipeline autodiscovery
         </p>
     </div>
   </div>
@@ -173,27 +170,27 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 <div class="grid grid-cols-4">
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-    <file-icons-jinja class="text-3em m-auto mt-2 -mb-2 h-10 text-red-400"/>
+    <codicon-graph class="text-3em m-auto mt-2 -mb-2 h-10 text-red-400"/>
       <p class="text-center text-0.8em">
-        Jinja2 templating
+        Plots in experiment tracking
       </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <fxemoji-present class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
+      <mdi-graph-outline class="text-3em m-auto mt-2 -mb-2 h-10 text-orange-400"/>
         <p class="text-center text-0.8em">
-          Improved packaging
+          Export runs from Viz
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
-     <carbon-terminal class="text-3em m-auto mt-2 -mb-2 h-10 text-gray-100"/>
+     <div class="text-3em m-auto mt-2 -mb-2 h-10 text-gray-100"> <img class="w-10 h10" src="/public/kedroid.png"/> </div>
         <p class="text-center text-0.8em">
-          Extensible CLI commands
+          New website
         </p>
     </div>
   </div>
