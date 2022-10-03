@@ -190,7 +190,7 @@ Here's a look at some of the things we've done:</h3>
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
       <logos-slack-icon class="text-3em m-auto mt-2 -mb-2 h-10"/>
       <p class="text-center text-0.8em">
-        Kedro on Slack!
+        Kedro on Slack
       </p>
     </div>
   </div>
@@ -211,26 +211,31 @@ Here's a look at some of the things we've done:</h3>
 
 ---
 
-# Placeholder slide - iPython
----
-
-# Placeholder slide - Rich
+<h1> <vaadin-file-tree-sub class=" m-auto mr-5 ml-2 text-blue-400"/> Improved interactive workflow</h1>
 
 ---
 
-# Placeholder slide - Pipeline autodiscovery
+<h1> <ant-design-file-search-outlined class=" m-auto mr-5 ml-2 text-blue-200"/> Pipeline autodiscovery</h1>
 
 ---
 
-# Placeholder slide - Plots on exp tracking
+<h1> <carbon-terminal class=" m-auto mr-5 ml-2 text-orange-400"/> Rich logs</h1>
 
 ---
 
+<h1> <codicon-graph class=" m-auto mr-5 ml-2 text-red-400"/> Plots on Experiment Tracking</h1>
 
-# Placeholder slide - Website
+---
+layout: iframe
+url: https://kedro.org/
+---
+<h1><img class="m-auto mr-5 ml-2 w-10 h10 display-inline" src="/public/kedroid.png"/> New Website</h1>
+
 ---
 
-# Placeholder slide - Slack
+<h1> <logos-slack-icon class=" m-auto mr-5 ml-2"/> Kedro on Slack</h1>
+
+<!--Mention Hacktoberfest-->
 
 ---
 
