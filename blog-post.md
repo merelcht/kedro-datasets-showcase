@@ -1,9 +1,9 @@
 # Introducing changes to Kedro Datasets
 
-> TLDR; Datasets are moving into a separate package called "kedro-datasets"
+> TL;DR: Datasets are moving into a separate package called `kedro-datasets`.
 
 ### Introduction
-Datasets are Kedro's way of dealing with input and output in a data pipeline. They are python classes and all implementations of [the `AbstractDataSet`](https://kedro.readthedocs.io/en/stable/kedro.io.AbstractDataSet.html#kedro.io.AbstractDataSet). [Kedro supports many datasets](https://kedro.readthedocs.io/en/stable/kedro.extras.datasets.html) out of the box to allow you to process data of different formats, such as Pandas, Plotly, and Spark.
+Datasets are Kedro's way of dealing with input and output in a data pipeline. They are Python classes that extend [`AbstractDataSet`](https://kedro.readthedocs.io/en/stable/kedro.io.AbstractDataSet.html#kedro.io.AbstractDataSet). [Kedro supports many datasets](https://kedro.readthedocs.io/en/stable/kedro.extras.datasets.html) out of the box to allow you to process data of different formats, such as Pandas, Plotly, and Spark.
 
 Datasets are an important part of Kedro, but at the same time it is a component that does not fit with the rest of the framework from a software architecture perspective. Datasets are currently packaged under the "extras" directory, which already indicates it is extra functionality that can be used with the Kedro framework. Some of the reasons why datasets do not fit with the Kedro framework are:
 - The Kedro framework has a different breaking change velocity from the datasets: the datasets are less stable and need to be updated more frequently
