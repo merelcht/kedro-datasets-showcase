@@ -2,14 +2,14 @@
 layout: image
 image: background.png
 ---
-
-<p class="text-2em text-yellow-500"><span class="bg-dark-900 m-2 rounded bg-opacity-60"> Kedro Showcase </span></p>
+<div id="padding" class="mt-5"></div>
+<div grid="~ cols-2 gap-4">
+<div class="mt-10">
+<p class="text-2em text-yellow-500"><span class="bg-dark-900 m-2 mb-0 rounded bg-opacity-60"> Kedro Showcase </span></p><br>
 
 ### October 2022
 
-<div grid="~ cols-2 gap-4">
-<div class="pt-12">
-  <div abs class="abs-bl ml-5 text-gray-500"><p class="text-xs">Best viewed in Dark mode, set it here:  <SetDarkMode/></p></div>
+
 </div>
 <div class="w-130"><KedroIcon /></div>
 
