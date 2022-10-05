@@ -25,9 +25,9 @@ The main reason for moving datasets to its own repository is because the rest of
 - Adding support for newer versions of the datasets was held back by the need for more conservative versioning of the framework
 - For users this often meant maintaining workarounds to make old versions of Kedro work with other tools
 
-Moving datasets into its own package means that Kedro becomes more modular, making it easier for users to upgrade an application using Kedro in production gradually by upgrading only the `kedro-datasets` version in its requirements rather
- than modifying the entire template. To be able to use the latest version of the full framework, users will have to migrate the template eventually, but being able to upgrade datasets much faster than they are able to do 
- now will be an improvement for production maintenance.
+Moving datasets into its own package means that Kedro becomes more modular, making it easier for users to upgrade an application using Kedro in production gradually by upgrading only the `kedro-datasets` version in its requirements rather 
+than modifying the entire template. To be able to use the latest version of the full framework, users will have to migrate the template eventually, but being able to upgrade datasets much faster than they are able to do 
+now will be an improvement for production maintenance and allows users to utilise newer datasets with older versions Kedro. It also opens up the possibility of using datasets without Kedro. 
 
 ### How will your new workflow look?
 Once datasets are moved to the new repository and removed from the core Kedro package, users will need to change a couple of things to use the framework and datasets as before:
