@@ -11,7 +11,7 @@ Datasets are an important part of Kedro, but at the same time it is a component 
 - The built-in datasets are in no way different than any custom dataset implementation from architectural point of view
 
 This is why we will be moving the datasets into a separate package, called `kedro-datasets`. Moving `kedro.extras.datasets` from the framework is a breaking change, therefore we will introduce this change in stages:
-1. Make a separate `kedro-datasets` package and alias everything in `kedro.extras.datasets` to that new package
+1. Make a separate `kedro-datasets` package and have `kedro` instantiate datasets from `kedro-datasets` with higher priority than `kedro.extras.datasets`
 2. Remove `kedro.extras.datasets` from the core Kedro package when we ship Kedro `0.19.0`
 
 
@@ -21,7 +21,7 @@ Moreover, any dataset contributions need to be added to the new repository.
 
 ### Why are we doing this?
 The main reason for moving datasets to its own repository is because the rest of Kedro framework has a different breaking change velocity from the datasets. In the past this caused the following issues:
-- It was not possible to add support for Python 3.9 and 3.10 to Kedro framework in a non-breaking version, because of breaking changes those python versions introduced to some of the dataset dependencies
+- It was not possible to add support for Python 3.9 and 3.10 to Kedro framework until all dataset dependencies had released a version compatible with Python 3.9 and 3.10
 - Adding support for newer versions of the datasets was held back by the need for more conservative versioning of the framework
 - For users this often meant maintaining workarounds to make old versions of Kedro work with other tools
 
