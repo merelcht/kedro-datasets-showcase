@@ -48,9 +48,9 @@ const img = "/"+props.name.toString().replace('\s+', '_').toLowerCase()+".png";
         >
             <span>
               <p class="text-center">
-            <span class="text-1.0em ">{{name}}</span>
+            <span style="display:block; height:0.1vh" class="text-1.0em ">{{name}}</span>
             <br>
-            <span class="text-0.7em text-center">{{role}}</span>
+            <span style="display:block; height:1vh" class="text-0.7em text-center">{{role}}</span>
             <br><span>{{country}}</span>
             </p>
             </span>
@@ -72,9 +72,9 @@ const img = "/"+props.name.toString().replace('\s+', '_').toLowerCase()+".png";
         >
             <span>
               <p class="text-center">
-            <span class="text-1.0em ">{{name}}</span>
+            <span style="display:block; height:0.1vh" class="text-1.0em ">{{name}}</span>
             <br>
-            <span class="text-0.7em text-center">{{role}}</span>
+            <span style="display:block; height:0.1vh" class="text-0.7em text-center">{{role}}</span>
             <br><span>{{country}}</span>
             </p>
             </span>

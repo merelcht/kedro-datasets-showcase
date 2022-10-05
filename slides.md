@@ -57,7 +57,6 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
       <div><Profile name="Rashida" role="SWE" country="🇮🇳" github="rashidakanchwala"/></div>
       <div><Profile name="Huong" role="SWE" country="🇻🇳" github="Huongg"/></div>
       <div><Profile name="Cvetanka" role="SWE" country="🇲🇰" github="cvetankanechevska"/></div>
-      <div></div>
       <div><Profile name="Gabriel" role="Visual Designer"  country="🇧🇷" github="GabrielComymQB"/></div>
       <div><Profile name="Andrew" role="Design Research" github="Mackay031" country="🇿🇦"/></div>
   </div></div></div>
