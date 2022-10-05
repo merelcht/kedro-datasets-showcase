@@ -301,7 +301,10 @@ layout: DemoLayout
 layout: iframe-right
 url: https://kedro.org/
 ---
-<p class="text-1.3em"><img class="m-auto mr-5 ml-2 w-10 h10 display-inline" src="/public/kedroid.png"/> New Website</p>
+<div class="pt-3" style="display:flex; vertcal-align:text-bottom">
+  <span style="display:inline-block; font-size:1.3em;">
+  <img class="m-auto mr-5 ml-2 w-7 h10" style="display:inline; vertical-align:bottom" src="/public/kedroid.png"/> New Website</span>
+</div>
 
 <style>
   li {
