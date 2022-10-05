@@ -19,8 +19,7 @@ image: background.png
 theme: apple-basic
 class: text-left
 highlighter: shiki
-layout: nok
-url: https://demo.kedro.org/
+layout: DemoLayout
 ---
 
 # Today's agenda
@@ -239,7 +238,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 <Socials />
 
 ---
-layout: image-left
+layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 ---
 
@@ -281,8 +280,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 
 <Socials />
 ---
-layout: iframe-left
-url: https://demo.kedro.org/experiment-tracking
+layout: DemoLayout
 ---
 
 <p class="text-1.3em"> <codicon-graph class=" m-auto mr-5 ml-2 text-red-400"/> Plots on Experiment Tracking</p>
