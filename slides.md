@@ -41,11 +41,11 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 
 <div class="flex">
   <div class="p-1">
-      <div><h3> <br> </h3></div>
+      <div><h3>Placeholder title</h3></div>
       <div class="flex p-2 gap-2">
-         <div><Profile name="Ivan" role="Tech lead" github="idanov" country="🇧🇬"/></div>
+         <div><Profile name="Ivan" role="Engineering lead" github="idanov" country="🇧🇬"/></div>
          <div><Profile name="Yetu" role="Product Lead" github="yetudada" country="🇿🇦"/></div>
-         <div><Profile name="Nero" role="Product" github="NeroOkwa" country="🇳🇬"/></div>
+         <div><Profile name="Nero" role="Product Manager" github="NeroOkwa" country="🇳🇬"/></div>
          <div><Profile name="Jo" role="Tech Writer" github="stichbury" country="🏴󠁧󠁢󠁷󠁬󠁳󠁿"/></div>
      </div>
      </div>
@@ -89,36 +89,36 @@ Here's a look at some of the things we've done:</h3>
 <div class="grid grid-cols-4 mt-3">
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between  ">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between  ">
       <emojione-building-construction class="text-3em m-auto mt-2 -mb-2 h-10"/>
-      <p class="text-center text-0.8em">
+      <p class="text-center text-0.8em text-white opacity-90">
         Rewritten framework internals
       </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between ">
       <logos-python class="text-3em m-auto mt-2 -mb-2 h-10"/>
-        <p class="text-center text-0.8em">
+        <p class="text-center text-0.8em text-white opacity-90">
           Support for Python 3.9 & 3.10
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between ">
         <iconoir-packages class="text-3em m-auto mt-2 -mb-2 h-10 text-purple-400"/>
-        <p class="text-center text-0.8em">
+        <p class="text-center text-0.8em text-white opacity-90">
           Micropackaging workflow
       </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between">
       <vaadin-file-tree-sub class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-400"/>
-        <p class="text-center text-0.8em">
+        <p class="text-center text-0.8em text-white opacity-90">
           Improved interactive workflow
         </p>
     </div>
@@ -129,36 +129,36 @@ Here's a look at some of the things we've done:</h3>
 
 <div class="grid grid-cols-4">
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between ">
      <mdi-hook class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
-        <p class="text-center text-0.8em">
+        <p class="text-center text-0.8em text-white opacity-90">
           Added hooks
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between ">
      <ant-design-file-search-outlined class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-200"/>
-        <p class="text-center text-0.8em">
+        <p class="text-center text-0.8em text-white opacity-90">
           Pipeline autodiscovery
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between ">
       <carbon-terminal class="text-3em m-auto mt-2 -mb-2 h-10 text-orange-400"/>
-        <p class="text-center text-0.8em">
+        <p class="text-center text-0.8em text-white opacity-90">
           Rich logs
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between ">
       <mdi-graph-outline class="text-3em m-auto mt-2 -mb-2 h-10 text-pink-400"/>
-        <p class="text-center text-0.8em">
+        <p class="text-center text-0.8em text-white opacity-90">
           Export runs from Viz
         </p>
     </div>
@@ -168,36 +168,36 @@ Here's a look at some of the things we've done:</h3>
 
 <div class="grid grid-cols-4">
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between ">
     <codicon-graph class="text-3em m-auto mt-2 -mb-2 h-10 text-red-400"/>
-      <p class="text-center text-0.8em">
+      <p class="text-center text-0.8em text-white opacity-90">
         Plots in experiment tracking
       </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between">
      <div class="text-3em m-auto mt-2 -mb-2 h-10 text-gray-100"> <img class="w-10 h10" src="/public/kedroid.png"/> </div>
-        <p class="text-center text-0.8em">
+        <p class="text-center text-0.8em text-white opacity-90">
           New website
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between">
       <logos-slack-icon class="text-3em m-auto mt-2 -mb-2 h-10"/>
-      <p class="text-center text-0.8em">
+      <p class="text-center text-0.8em text-white opacity-90">
         Kedro on Slack
       </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
-    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+    <div class="bg-dark-400 rounded-lg flex flex-col content-between ">
       <emojione-bug class="text-3em m-auto mt-2 -mb-2 h-10"/>
-        <p class="text-center text-0.8em">
+        <p class="text-center text-0.8em text-white opacity-90">
           Dead bugs
         </p>
     </div>

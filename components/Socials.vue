@@ -20,7 +20,7 @@
       href="https://github.com/kedro-org/kedro"
       target="_blank"
       alt="GitHub"
-      class="icon-btn opacity-80 rounded-full !border-none !hover:text-white"
+      class="icon-btn text-white opacity-60 rounded-full !border-none !hover:text-white !hover:opacity-80"
     >
       <carbon-logo-github />
     </a>
