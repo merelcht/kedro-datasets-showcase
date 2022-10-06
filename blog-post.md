@@ -23,18 +23,18 @@ Moreover, any dataset contributions need to be added to the new repository.
 The main reason for moving datasets to its own repository is because the rest of Kedro framework has a different breaking change velocity from the datasets. In the past this caused the following issues:
 - It was not possible to add support for Python 3.9 and 3.10 to Kedro framework until all dataset dependencies had released a version compatible with Python 3.9 and 3.10
 - Adding support for newer versions of the datasets was held back by the need for more conservative versioning of the framework
-- For users this often meant maintaining workarounds to make old versions of Kedro work with other tools
+- For users, this often meant maintaining workarounds to make old versions of Kedro work with other tools
 
-Moving datasets into its own package means that Kedro becomes more modular, making it easier for users to upgrade an application using Kedro in production gradually by upgrading only the `kedro-datasets` version in its requirements rather 
+Moving datasets into its own package means that Kedro becomes more modular, making it possible for users to upgrade only the `kedro-datasets` dependency in production rather 
 than modifying the entire template. To be able to use the latest version of the full framework, users will have to migrate the template eventually, but being able to upgrade datasets much faster than they are able to do 
 now will be an improvement for production maintenance and allows users to utilise newer datasets with older versions Kedro. It also opens up the possibility of using datasets without Kedro. 
 
 ### How will your new workflow look?
 Once datasets are moved to the new repository and removed from the core Kedro package, users will need to change a couple of things to use the framework and datasets as before:
-1. In addition to installing kedro, users will need to install kedro-datasets by running: `pip install kedro-datasets`
+1. In addition to installing Kedro, users will need to install kedro-datasets by running: `pip install kedro-datasets`
 2. To install a specific dataset, users will need to run `pip install kedro-datasets[SomeDataSet]` instead of `pip install kedro[SomeDataSet]`
 3. Use `import kedro_datasets` instead of `import kedro.extras.datasets` to import datasets into code
-4. Make any dataset updates and contributions to the new kedro-datasets repository instead of the core kedro one
+4. Make any dataset updates and contributions to the new `kedro-datasets` repository instead of the core `kedro` one
 
 ### Find out more!
 You can follow any `kedro-datasets` developments and more on [our Github repository](https://github.com/kedro-org/kedro/). 
