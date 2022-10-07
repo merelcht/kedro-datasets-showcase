@@ -6,14 +6,14 @@
 
 Datasets are Kedro's way of dealing with input and output in a data and machine-learning pipeline. [Kedro supports many datasets](https://kedro.readthedocs.io/en/stable/kedro.extras.datasets.html) out of the box to allow you to process different data formats including Pandas, Plotly, Spark and many more.
 
-We're proposing an architectural change that will move Datasets from the "extras" directory in Kedro into a separate package, called `kedro-datasets`. This change is one of the initiatives that will bring us closer to a stable release of Kedro 1.0. 
+We're proposing an architectural change that will move datasets from the "extras" directory in Kedro into a separate package, called `kedro-datasets`. This change is one of the initiatives that will bring us closer to a stable release of Kedro 1.0. 
 
 ### Why are we doing this?
 
 We are focused on reducing existing sources of breaking changes in Kedro so that we can achieve a stable framework. A primary reason why we're proposing moving datasets into a separate package is to reduce breaking changes associated with dataset dependencies. 
 
 In the past, we have faced challenges like not being able to: 
- - [Add Python 3.9 and 3.10 support](https://github.com/kedro-org/kedro/issues?q=is%3Aissue+python+3.9+is%3Aclosed) to the Kedro framework until all of our datasets' had released Python 3.9 and 3.10 support. 
+ - [Add Python 3.9 and 3.10 support](https://github.com/kedro-org/kedro/issues?q=is%3Aissue+python+3.9+is%3Aclosed) to the Kedro framework until all of our datasets had released Python 3.9 and 3.10 support. 
  - Provide new, but workflow-breaking, dataset functionality to our users because the Kedro framework has more conservative versioning i.e. on average we ship a breaking release once a year and users would have to wait that long for changes to the datasets.
 
 Moving datasets into a separate package means that: 
