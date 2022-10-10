@@ -232,6 +232,8 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 
 - `kedro jupyter notebook/lab` creates a custom Jupyter kernel that preloads the Kedro IPython extension and launches a notebook with that kernel selected.
 
+- The Kedro IPython extension also works with Databricks notebooks. 
+
 
 <Socials />
 
