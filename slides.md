@@ -44,7 +44,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
   <div class="p-1">
       <div><h3>Placeholder title</h3></div>
       <div class="flex p-2 gap-2">
-         <div><Profile name="Ivan" role="Engineering lead" github="idanov" country="🇧🇬"/></div>
+         <div><Profile name="Ivan" role="Engineering Lead" github="idanov" country="🇧🇬"/></div>
          <div><Profile name="Yetu" role="Product Lead" github="yetudada" country="🇿🇦"/></div>
          <div><Profile name="Nero" role="Product Manager" github="NeroOkwa" country="🇳🇬"/></div>
          <div><Profile name="Jo" role="Tech Writer" github="stichbury" country="🏴󠁧󠁢󠁷󠁬󠁳󠁿"/></div>
@@ -54,12 +54,12 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
   <div class="p-1">
      <div><h3>Viz team</h3></div>
      <div class="flex p-2 gap-2">
-      <div><Profile name="Tynan" role="Tech lead" github="tynandebold" country="🇺🇸"/></div>
+      <div><Profile name="Tynan" role="Tech Lead" github="tynandebold" country="🇺🇸"/></div>
       <div><Profile name="Rashida" role="SWE" country="🇮🇳" github="rashidakanchwala"/></div>
       <div><Profile name="Huong" role="SWE" country="🇻🇳" github="Huongg"/></div>
       <div><Profile name="Cvetanka" role="SWE" country="🇲🇰" github="cvetankanechevska"/></div>
-      <div><Profile name="Gabriel" role="Visual Designer"  country="🇧🇷" github="GabrielComymQB"/></div>
-      <div><Profile name="Andrew" role="Design Research" github="Mackay031" country="🇿🇦"/></div>
+      <div><Profile name="Gabriel" role="Design Lead"  country="🇧🇷" github="GabrielComymQB"/></div>
+      <div><Profile name="Andrew" role="Product Designer" github="Mackay031" country="🇿🇦"/></div>
   </div></div></div>
 
   <div class="flex">
