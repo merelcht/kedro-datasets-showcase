@@ -30,8 +30,8 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
   <li><span @click="$slidev.nav.go(3)" hover="bg-white bg-opacity-10 rounded">🤖 Meet the team</span></li>
   <li><span @click="$slidev.nav.go(4)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
   <li><span @click="$slidev.nav.go(11)" hover="bg-white bg-opacity-10 rounded">🧑‍💻 What has the community been up to?</span></li>
-  <li><span @click="$slidev.nav.go(5)" hover="bg-white bg-opacity-10 rounded">💿 Changes to Datasets</span></li>
-  <li><span @click="$slidev.nav.go(7)">📣 Feedback + Q&A</span></li>
+  <li><span @click="$slidev.nav.go(12)" hover="bg-white bg-opacity-10 rounded">💿 Changes to Datasets</span></li>
+  <li><span @click="$slidev.nav.go(16)">📣 Feedback + Q&A</span></li>
 </ul>
 
 <Socials />
@@ -379,6 +379,20 @@ Mention Hacktoberfest
 <Socials />
 ---
 layout: image-right
+---
+# Changes to datasets
+
+[TBC]
+
+<Socials />
+---
+
+# Datasets: Placeholder Slide 2
+
+[TBC]
+<Socials />
+---
+layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
@@ -416,19 +430,6 @@ function updateUser(id: number, update: User) {
   display: none;
 }
 </style>
-
----
-
-# Datasets: Placeholder Slide 1
-
-[TBC]
-
-
----
-
-# Datasets: Placeholder Slide 2
-
-[TBC]
 
 ---
 
