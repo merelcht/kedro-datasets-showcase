@@ -209,52 +209,76 @@ Here's a look at some of the things we've done:</h3>
 <Socials />
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
+layout: #none
+image: #none
 ---
 <p class="text-1.3em"> <vaadin-file-tree-sub class=" m-auto mr-5 ml-2 text-blue-400"/> Improved interactive workflow</p>
 
 <style>
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .li-container {
+    text-align: center;
+  }
+
   li {
     font-size: 0.8em;
     list-style-type: circle;
   }
 </style>
 
-<div id="padding" class="m-8">
+<div class="grid grid-cols-2 gap-4">
+  <div>
+    <ul>
+      <div id="padding" class="m-16"></div>
+      <li>The only recommended way to work with Kedro in Jupyter or IPython is now the Kedro IPython extension.</li>
+      <li>Managed Jupyter instances should load this via `%load_ext kedro.ipython` and use the line magic `%reload_kedro`.</li>
+      <li>`kedro ipython` launches an IPython session that preloads the Kedro IPython extension.</li>
+      <li>`kedro jupyter notebook/lab` creates a custom Jupyter kernel that preloads the Kedro IPython extension and launches a notebook with that kernel selected.</li>
+    </ul>
+  </div>
+  <div>
+    <img class="w-200" src="/images/iPython_jupyter_logos.jpg" />
+  </div>
 </div>
-
-- The only recommended way to work with Kedro in Jupyter or IPython is now the Kedro IPython extension.
-
-- Managed Jupyter instances should load this via `%load_ext kedro.ipython` and use the line magic `%reload_kedro`.
-
-- `kedro ipython` launches an IPython session that preloads the Kedro IPython extension.
-
-- `kedro jupyter notebook/lab` creates a custom Jupyter kernel that preloads the Kedro IPython extension and launches a notebook with that kernel selected.
-
 
 <Socials />
 
 ---
-layout: image-right
+layout: #none
 image: #none
 ---
 
 <p class="text-1.3em"> <ant-design-file-search-outlined class=" m-auto mr-5 ml-2 text-blue-200"/> Pipeline autodiscovery</p>
 
 <style>
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   li {
     list-style-type: circle
   }
 </style>
 
-<div id="padding" class="m-20">
+<div class="grid grid-cols-2 gap-4">
+  <div>
+    <ul>
+      <div id="padding" class="m-20"></div>
+      <li>Pipelines, once created, are now registered automatically.</li>
+      <li>No need to explicitly add it to the pipeline registry to access it by name (e.g. `kedro run --pipeline=&lt;pipeline_name&gt;`) or through the default pipeline (e.g. `kedro run`).</li>
+    </ul>
+  </div>
+  <div>
+    <img class="w-90" src="/images/pipeline.jpg" />
+  </div>
 </div>
-
-- Pipelines, once created, are now registered automatically.
-<br>
-<br>
-- No need to explicitly add it to the pipeline registry to access it by name (e.g. `kedro run --pipeline=<pipeline_name>`) or through the default pipeline (e.g. `kedro run`).
 
 <Socials />
 
@@ -347,8 +371,14 @@ url: https://kedro.org/
   #main {
     font-size: 0.8em;
     text-align: center;
-
   }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   li {
     list-style-type: circle
   }
@@ -357,7 +387,7 @@ url: https://kedro.org/
 <div id="padding" class="m-6">
 </div>
 
-<img src="https://demo.kedro.org" alt="Kedro slack invite QR code" class="w-60 h-60"/>
+<img src="/images/slack_qr.svg" alt="Kedro slack invite QR code" class="w-60 h-60"/>
 
 <p id="main">
 We have launched a Kedro Slack organisation, and you should join it
