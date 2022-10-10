@@ -29,6 +29,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 <ul>
   <li><span @click="$slidev.nav.go(3)" hover="bg-white bg-opacity-10 rounded">🤖 Meet the team</span></li>
   <li><span @click="$slidev.nav.go(4)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
+  <li><span @click="$slidev.nav.go(11)" hover="bg-white bg-opacity-10 rounded">🧑‍💻 What has the community been up to?</span></li>
   <li><span @click="$slidev.nav.go(5)" hover="bg-white bg-opacity-10 rounded">💿 Changes to Datasets</span></li>
   <li><span @click="$slidev.nav.go(7)">📣 Feedback + Q&A</span></li>
 </ul>
@@ -231,14 +232,12 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 
 - `kedro jupyter notebook/lab` creates a custom Jupyter kernel that preloads the Kedro IPython extension and launches a notebook with that kernel selected.
 
-- There is no longer a need to specify `--all-kernels` to show all available kernel
-
 
 <Socials />
 
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
+image: #none
 ---
 
 <p class="text-1.3em"> <ant-design-file-search-outlined class=" m-auto mr-5 ml-2 text-blue-200"/> Pipeline autodiscovery</p>
@@ -249,10 +248,13 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
   }
 </style>
 
-<div id="padding" class="m-10">
+<div id="padding" class="m-20">
 </div>
 
-- A pipeline created with `kedro pipeline create <pipeline_name>` can now be accessed immediately without needing to explicitly register it in `src/<package_name>/pipeline_registry.py`, either individually by name (e.g. `kedro run --pipeline=<pipeline_name>`) or as part of the combined default pipeline (e.g. `kedro run`).
+- Pipelines, once created, are now registered automatically.
+<br>
+<br>
+- No need to explicitly add it to the pipeline registry to access it by name (e.g. `kedro run --pipeline=<pipeline_name>`) or through the default pipeline (e.g. `kedro run`).
 
 <Socials />
 
@@ -265,17 +267,19 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 
 <style>
   li {
-    list-style-type: circle
+    list-style-type: circle;
   }
 </style>
 
-<div id="padding" class="m-6">
+<div id="padding" class="m-20">
 </div>
 
-- Rich is an open source blah blah filler
+- Rich is an amazing, open-source library that superpowers the terminal experience.
+<br>
+<br>
 
-- Kedro now supports Rich logging, which turns our logs and tracebacks from boring and hard-to-read to pretty and colourful :rainbow:
-- See image (or gif!) for example
+- Kedro now supports Rich logging, which turns our logs and tracebacks from boring and hard-to-read to pretty and colourful 🌈
+- We're not done yet! Expect more Rich-related changes to come soon.
 
 <Socials />
 ---
@@ -290,10 +294,19 @@ layout: DemoLayout
   }
 </style>
 
-<div id="padding" class="m-6">
-</div>
+<div id="padding" class="mt-20 mr-7">
 
-- < Steal explanation from the docs\>
+- In the last year we released experiment tracking on Kedro-Viz 📈 🎉
+<br>
+<br>
+
+- As part of this, you can now see your plots within the experiment tracking view to compare them side-by-side
+<br>
+<br>
+
+- Visit our docs for a walkthrough on adding this functionality
+
+</div>
 
 <Socials />
 
@@ -312,10 +325,16 @@ url: https://kedro.org/
   }
 </style>
 
-<div id="padding" class="m-6">
+<div id="padding" class="m-15">
 </div>
 
-Look, it's a website! Check it out!
+- We've now got our very own Kedro website! 
+<br>
+
+- This is our online home and a centralised hub for all things Kedro. 
+<br>
+
+- Here you can find our documentation, tutorials, and links to our online forums where you can join our Kedro community. Check it out!
 
 <Socials />
 
