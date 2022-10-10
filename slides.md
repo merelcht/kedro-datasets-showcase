@@ -31,7 +31,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
   <li><span @click="$slidev.nav.go(4)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
   <li><span @click="$slidev.nav.go(11)" hover="bg-white bg-opacity-10 rounded">🧑‍💻 What has the community been up to?</span></li>
   <li><span @click="$slidev.nav.go(12)" hover="bg-white bg-opacity-10 rounded">💿 Changes to Datasets</span></li>
-  <li><span @click="$slidev.nav.go(16)">📣 Feedback + Q&A</span></li>
+  <li><span @click="$slidev.nav.go(18)">📣 Feedback + Q&A</span></li>
 </ul>
 
 <Socials />
@@ -362,7 +362,7 @@ url: https://kedro.org/
 <p id="main">
 We have launched a Kedro Slack organisation, and you should join it
 
-You'll be able to collaborate and learn from our 800+ member open-source community that we will also migrate to this new location. Join the new Slack organisation :tada:
+You'll be able to collaborate and learn from our 800+ member open-source community that we will also migrate to this new location. Join the new Slack organisation 🎉
 </p>
 
 
@@ -380,117 +380,192 @@ Mention Hacktoberfest
 ---
 layout: image-right
 ---
+
 # Changes to datasets
 
-[TBC]
+<style>
+  li {
+    list-style-type: circle
+  }
+</style>
 
-<Socials />
----
+<div id="padding" class="m-15">
+</div>
 
-# Datasets: Placeholder Slide 2
+- Datasets are Kedro's way of dealing with input and output in a data and machine-learning pipeline. 
 
-[TBC]
+
+- Kedro supports many datasets out of the box to allow you to process different data formats including Pandas, Plotly, Spark and many more.
+  
+- These datasets have lived in Kedro within `kedro/extras/datasets`
+
+
 <Socials />
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
-# Changes to Datasets
-
-Use code snippets and get the highlighting directly![^1]
-
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
+# The Problem
 
 <style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
+  li {
+    list-style-type: circle
+  }
 </style>
 
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
-
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
+<div id="padding" class="mt-8">
 
 
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
+- Kedro's dependency on these datasets has added additional constraints that affect our workflow
 
+- For example:
+  <div class="text-0.9em">
 
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
+  - We couldn't add Python 3.9 and 3.10 support to the Kedro framework until all of our datasets had also released Python 3.9 and 3.10 support.
 
-@enduml
-```
+  - We couldn't provide new, but workflow-breaking, dataset functionality as the Kedro framework versioning is more conservative than the datasets.
+  </div>
 
 </div>
 
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
+<Socials />
+---
+layout: image-right
+---
 
+# Our Solution
+
+<style>
+  li {
+    list-style-type: circle
+  }
+</style>
+
+<div id="padding" class="m-8">
+</div>
+
+We want to move the datasets out into a separate package, `kedro-datasets`.
+
+This means:
+
+- Kedro becomes more modular, making it possible for users to upgrade only the kedro-datasets dependency in production rather than modifying the entire template.
+  
+- Users can leverage newer datasets with older versions of Kedro and can use datasets without Kedro.
+
+
+
+<Socials />
+---
+layout: two-cols
+---
+
+# What do these changes mean for you?
+
+There are three main changes to be aware of:
+
+1.  In addition to installing Kedro, users will need to install `kedro-datasets` to make use of datasets. 
+   <br>
+
+
+::right::
+<div class="m-10 p-5 text-1.5em h-30">
+
+Old workflow 🙅
+<br>
+<br>
+
+```bash
+pip install kedro[SomeDataSet]
+```
+</div>
+<div class="m-10 p-5 text-1.5em">
+New workflow ✅
+<br>
+<br>
+
+```bash
+pip install kedro-datasets[SomeDataSet] 
+```
+</div>
+
+<Socials />
+---
+layout: two-cols
+---
+
+# What do these changes mean for you?
+
+There are three main changes to be aware of:
+
+1.  In addition to installing Kedro, users will need to install kedro-datasets to make use of datasets. 
+   <br>
+   <br>
+
+2.  Importing the datasets will look different.
+
+
+::right::
+<div class="m-10 p-5 text-1.5em h-30">
+
+Old workflow 🙅
+<br>
+<br>
+
+```py
+from kedro.extras.datasets import SomeDataSet
+```
+</div>
+<div class="m-10 p-5 text-1.5em">
+New workflow ✅
+<br>
+<br>
+
+```py
+from kedro_datasets import SomeDataSet
+```
+</div>
+
+<Socials />
+---
+layout: two-cols
+---
+
+# What do these changes mean for you?
+
+There are three main changes to be aware of:
+
+1.  In addition to installing Kedro, users will need to install kedro-datasets to make use of datasets. 
+   <br>
+   <br>
+
+2.  Importing the datasets will look different.
+   <br>
+   <br>
+
+3.  Any dataset contributions should be made to `kedro-datasets` (part of the `kedro-plugins` repository), not core `kedro`.
+
+::right::
+<div class="m-10 p-5 text-1.5em h-30">
+
+Old workflow 🙅
+<br>
+<br>
+
+```py
+from kedro.extras.datasets import SomeDataSet
+```
+</div>
+<div class="m-10 p-5 text-1.5em">
+New workflow ✅
+<br>
+<br>
+
+```py
+from kedro_datasets import SomeDataSet
+```
+</div>
+
+<Socials />
 ---
 layout: quote
 ---
