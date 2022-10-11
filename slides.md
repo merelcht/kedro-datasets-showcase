@@ -279,7 +279,7 @@ image: #none
 
 <br>
 
-  - No need to explicitly add it to the pipeline registry to access it by name (e.g. `kedro run --pipeline=&lt;pipeline_name&gt;`) or through the default pipeline (e.g. `kedro run`).
+  - No need to explicitly add it to the pipeline registry to access it by name (e.g. `kedro run --pipeline=<pipeline_name>`) or through the default pipeline (e.g. `kedro run`).
 
   </div>
   <div>
@@ -308,7 +308,7 @@ layout: two-cols
 <br>
 <br>
 
-- Kedro now supports Rich logging, which turns our logs and tracebacks from boring and hard-to-read to pretty and colourful 🌈
+- Kedro now supports Rich logging, which turns our logs and tracebacks from boring and hard-to-read to pretty and colourful. 🌈
 - We're not done yet! Expect more Rich-related changes to come soon.
 
 ::right::
