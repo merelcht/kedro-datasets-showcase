@@ -30,7 +30,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
   <li><span @click="$slidev.nav.go(3)" hover="bg-white bg-opacity-10 rounded">🤖 Meet the team</span></li>
   <li><span @click="$slidev.nav.go(4)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
   <li><span @click="$slidev.nav.go(11)" hover="bg-white bg-opacity-10 rounded">🧑‍💻 What has the community been up to?</span></li>
-  <li><span @click="$slidev.nav.go(12)" hover="bg-white bg-opacity-10 rounded">💿 Changes to Datasets</span></li>
+  <li><span @click="$slidev.nav.go(12)" hover="bg-white bg-opacity-10 rounded">💿 Upcoming Changes to Datasets</span></li>
   <li><span @click="$slidev.nav.go(18)">📣 Feedback + Q&A</span></li>
 </ul>
 
@@ -409,7 +409,6 @@ Mention Hacktoberfest
 
 # 🧑‍💻 What has the community been up to?
 
-
 <br>
 
 ## Top Stars 🌟
@@ -419,20 +418,20 @@ Mention Hacktoberfest
       <div style="display: inline-block;">
         <img class="m-auto mr-4 ml-2 w-10 p-1 rounded-full" style="display:inline;" src="/public/galileo-galilei.png"/>
       </div>
-      <div style="display: inline-block;" class="text-1.1em">
+      <div style="display: inline-block;" class="text-1.1em text-white">
         Galileo Galilei
       </div>
     </div>
   </div>
   <div style="display:inline;" class="m-4 p-2 bg-dark-400 rounded-lg">
     <div style="display:inline-block;">
-      <span style="display:inline-block; font-size:1.1em;">
+      <span style="display:inline-block; font-size:1.1em; color:white;">
         <img class="m-auto mr-5 ml-2 p-1 w-10 rounded-full" style="display:inline;" src="/public/get-in-data.png"/> GetInData Team </span>
     </div>
   </div>
   <div style="display:inline;" class="m-4 p-2 bg-dark-400 rounded-lg">
     <div style="display:inline-block;">
-      <span style="display:inline-block; font-size:1.1em;">
+      <span id="stay-light" style="display:inline-block; font-size:1.1em; color: white;">
         <img class="m-auto mr-5 ml-2 p-1 w-10 rounded-full" style="display:inline;" src="/public/neptune-ai.png"/> Neptune.AI Team</span>
     </div>
   </div>
@@ -474,7 +473,7 @@ Mention Hacktoberfest
 layout: two-cols
 ---
 
-# Changes to datasets
+# Upcoming changes to datasets
 
 <style>
   li {
