@@ -393,7 +393,7 @@ url: https://kedro.org/
 <img src="/images/slack_qr.png" alt="Kedro slack invite QR code" class="w-60 h-60"/>
 
 <p id="main">
-We have launched a Kedro Slack organisation, and you should join it
+We have launched a Kedro Slack organisation, and you should join it (by November 30<sup>th</sup> 😉)
 
 You'll be able to collaborate and learn from our 800+ member open-source community that we will also migrate to this new location. Join the new Slack organisation 🎉
 </p>
