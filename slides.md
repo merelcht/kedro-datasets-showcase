@@ -212,7 +212,7 @@ Here's a look at some of the things we've done:</h3>
 layout: #none
 image: #none
 ---
-<p class="text-1.3em"> <vaadin-file-tree-sub class=" m-auto mr-5 ml-2 text-blue-400"/> Improved interactive workflow</p>
+
 
 <style>
   img {
@@ -233,6 +233,7 @@ image: #none
 
 <div class="grid grid-cols-2 gap-4">
   <div>
+  <p class="text-1.3em"> <vaadin-file-tree-sub class="ml-2 text-blue-400"/> Improved interactive workflow</p>
     <ul>
       <div id="padding" class="m-16"></div>
       <li>The only recommended way to work with Kedro in Jupyter or IPython is now the Kedro IPython extension.</li>
@@ -243,7 +244,7 @@ image: #none
     </ul>
   </div>
   <div>
-    <img class="w-200" src="/images/iPython_jupyter_logos.jpg" />
+    <img class="w-150 m-40 mt-5 ml-5" src="/images/interactive-workflow.gif" />
   </div>
 </div>
 
