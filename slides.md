@@ -42,7 +42,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 
 <div class="flex">
   <div class="p-1">
-      <div><h3>Placeholder title</h3></div>
+      <div><h3>Product Team</h3></div>
       <div class="flex p-2 gap-2">
          <div><Profile name="Ivan" role="Engineering Lead" github="idanov" country="🇧🇬"/></div>
          <div><Profile name="Yetu" role="Product Lead" github="yetudada" country="🇿🇦"/></div>
