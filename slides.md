@@ -237,9 +237,13 @@ image: #none
     <ul>
       <div id="padding" class="m-16"></div>
       <li>The only recommended way to work with Kedro in Jupyter or IPython is now the Kedro IPython extension.</li>
+      <br>
       <li>Managed Jupyter instances should load this via `%load_ext kedro.ipython` and use the line magic `%reload_kedro`.</li>
+      <br>
       <li>`kedro ipython` launches an IPython session that preloads the Kedro IPython extension.</li>
+      <br>
       <li>`kedro jupyter notebook/lab` creates a custom Jupyter kernel that preloads the Kedro IPython extension and launches a notebook with that kernel selected.</li>
+      <br>
       <li>The Kedro IPython extension also works with Databricks notebooks.</li>
     </ul>
   </div>
@@ -268,12 +272,15 @@ image: #none
 </style>
 
 <div class="grid grid-cols-2 gap-4">
-  <div>
-    <ul>
+  <div class="text-1.2em">
       <div id="padding" class="m-20"></div>
-      <li>Pipelines, once created, are now registered automatically.</li>
-      <li>No need to explicitly add it to the pipeline registry to access it by name (e.g. `kedro run --pipeline=&lt;pipeline_name&gt;`) or through the default pipeline (e.g. `kedro run`).</li>
-    </ul>
+      
+  - Pipelines, once created, are now registered automatically.
+
+<br>
+
+  - No need to explicitly add it to the pipeline registry to access it by name (e.g. `kedro run --pipeline=&lt;pipeline_name&gt;`) or through the default pipeline (e.g. `kedro run`).
+
   </div>
   <div>
     <img class="w-90" src="/images/pipeline.jpg" />
@@ -400,7 +407,67 @@ Mention Hacktoberfest
 
 ---
 
-# Placeholder slide - What has the community been up to?
+# 🧑‍💻 What has the community been up to?
+
+
+<br>
+
+## Top Stars 🌟
+<div class="p-5 grid grid-cols-3">
+  <div style="display:inline;" class="m-4 p-2 bg-dark-400 rounded-lg">
+    <div style="display:inline-block;">
+      <div style="display: inline-block;">
+        <img class="m-auto mr-4 ml-2 w-10 p-1 rounded-full" style="display:inline;" src="/public/galileo-galilei.png"/>
+      </div>
+      <div style="display: inline-block;" class="text-1.1em">
+        Galileo Galilei
+      </div>
+    </div>
+  </div>
+  <div style="display:inline;" class="m-4 p-2 bg-dark-400 rounded-lg">
+    <div style="display:inline-block;">
+      <span style="display:inline-block; font-size:1.1em;">
+        <img class="m-auto mr-5 ml-2 p-1 w-10 rounded-full" style="display:inline;" src="/public/get-in-data.png"/> GetInData Team </span>
+    </div>
+  </div>
+  <div style="display:inline;" class="m-4 p-2 bg-dark-400 rounded-lg">
+    <div style="display:inline-block;">
+      <span style="display:inline-block; font-size:1.1em;">
+        <img class="m-auto mr-5 ml-2 p-1 w-10 rounded-full" style="display:inline;" src="/public/neptune-ai.png"/> Neptune.AI Team</span>
+    </div>
+  </div>
+
+</div>
+
+
+## Plugins 🔌
+<div class="pt-2 pl-40" style="display: flex;">
+  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg"> 
+    <img src="/public/ml-flow.png" class="w-45"/>
+  </div>
+
+  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg">
+    <img src="/public/neptune.png" class="w-45 rounded-lg"/> 
+  </div>
+
+  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg"> 
+    <img src="/public/airflow.png" class="w-45"/> 
+  </div>
+</div>
+<div class="pl-40" style="display: flex;">
+  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg"> 
+    <img src="/public/vertex.jpeg" class="w-45 rounded-lg"/> 
+  </div>
+
+  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg"> 
+    <img src="/public/azure.png" class="w-45"/>  
+  </div>
+
+  <div style="display: inline; position: relative;" class="m-2 p-2 bg-dark-400 rounded-lg"> 
+    <img src="/public/kubeflow.png" class="w-45 rounded-lg"/> 
+  </div>
+</div>
+
 
 <Socials />
 ---
