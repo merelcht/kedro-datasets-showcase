@@ -467,7 +467,7 @@ layout: two-cols
 <Socials />
 ---
 layout: image-right
-image: https://media4.giphy.com/media/3o6Mb8mjBVYE7yVi12/giphy.gif?cid=ecf05e47bfi0fn1e6eowlcfswwhe1caqpmngh6fi91ijw1u4&rid=giphy.gif&ct=g
+image: /images/moving.gif
 ---
 
 # Our Solution
