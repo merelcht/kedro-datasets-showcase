@@ -305,31 +305,22 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 - We're not done yet! Expect more Rich-related changes to come soon.
 
 <Socials />
+
 ---
-layout: DemoLayout
+layout: center
 ---
 
 <p class="text-1.3em"> <codicon-graph class=" m-auto mr-5 ml-2 text-red-400"/> Plots on Experiment Tracking</p>
 
-<style>
-  li {
-    list-style-type: circle
-  }
-</style>
-
 <div id="padding" class="mt-20 mr-7">
-
-- In the last year we released experiment tracking on Kedro-Viz 📈 🎉
-<br>
-<br>
-
-- As part of this, you can now see your plots within the experiment tracking view to compare them side-by-side
-<br>
-<br>
-
-- Visit our docs for a walkthrough on adding this functionality
-
+  <img src="/images/kedro-viz-showcase-plotly-exp-demo.gif"/>
 </div>
+
+<!--
+- In the last year we released experiment tracking on Kedro-Viz 📈 🎉
+- As part of this, you can now see your plots within the experiment tracking view to compare them side-by-side
+- Visit our docs for a walkthrough on adding this functionality
+-->
 
 <Socials />
 
