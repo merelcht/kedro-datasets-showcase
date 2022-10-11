@@ -377,7 +377,7 @@ url: https://kedro.org/
 <div id="padding" class="m-6">
 </div>
 
-<img src="/images/slack_qr.svg" alt="Kedro slack invite QR code" class="w-60 h-60"/>
+<img src="/images/slack_qr.png" alt="Kedro slack invite QR code" class="w-60 h-60"/>
 
 <p id="main">
 We have launched a Kedro Slack organisation, and you should join it
