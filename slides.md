@@ -73,7 +73,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
       <div><FrameworkProfile name="Sajid" role="SWE" github="SajidAlamQB" country="🇬🇧"/></div>
       <div><FrameworkProfile name="Ankita" role="SWE" github="ankatiyar" country="🇮🇳"/></div>
       <div><FrameworkProfile name="Jannic" role="SWE" github="jmholzer" country="🇬🇧"/></div>
-      <div><FrameworkProfile name="Deepyaman" role="DS SWE" github="deepyaman" country="🇺🇸"/></div>
+      <div><FrameworkProfile name="Deepyaman" role="MLE" github="deepyaman" country="🇺🇸"/></div>
     </div>
     <div class="pb-5"></div>
   </div>
