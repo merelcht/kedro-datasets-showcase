@@ -404,7 +404,7 @@ Mention Hacktoberfest
 
 <Socials />
 ---
-layout: image-right
+layout: two-cols
 ---
 
 # Changes to datasets
@@ -426,9 +426,15 @@ layout: image-right
 - These datasets have lived in Kedro within `kedro/extras/datasets`
 
 
+::right::
+
+<div>
+  <img src="/images/datasets.png"/>
+</div>
+
 <Socials />
 ---
-layout: image-right
+layout: two-cols
 ---
 
 # The Problem
@@ -445,7 +451,7 @@ layout: image-right
 - Kedro's dependency on these datasets has added additional constraints that affect our workflow
 
 - For example:
-  <div class="text-0.9em">
+  <div class="text-1.1em">
 
   - We couldn't add Python 3.9 and 3.10 support to the Kedro framework until all of our datasets had also released Python 3.9 and 3.10 support.
 
@@ -454,9 +460,14 @@ layout: image-right
 
 </div>
 
+::right::
+
+<div class="w-60 ml-35 mt-8"><img src="/images/datasets-texts.gif" class="rounded-lg"/></div>
+
 <Socials />
 ---
 layout: image-right
+image: https://media4.giphy.com/media/3o6Mb8mjBVYE7yVi12/giphy.gif?cid=ecf05e47bfi0fn1e6eowlcfswwhe1caqpmngh6fi91ijw1u4&rid=giphy.gif&ct=g
 ---
 
 # Our Solution
