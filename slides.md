@@ -283,8 +283,7 @@ image: #none
 <Socials />
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
+layout: two-cols
 ---
 
 <p class="text-1.3em"> <carbon-terminal class=" m-auto mr-5 ml-2 text-orange-400"/> Rich logs</p>
@@ -304,6 +303,12 @@ image: https://source.unsplash.com/collection/94734566/1920x1080 #placeholder
 
 - Kedro now supports Rich logging, which turns our logs and tracebacks from boring and hard-to-read to pretty and colourful 🌈
 - We're not done yet! Expect more Rich-related changes to come soon.
+
+::right::
+
+<div class="pt-20 pl-15 rounded-lg">
+<img src="/images/rich-logs.gif" class="rounded-lg"/>
+</div>
 
 <Socials />
 
