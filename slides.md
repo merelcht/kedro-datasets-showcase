@@ -283,7 +283,7 @@ image: #none
 
   </div>
   <div>
-    <img class="w-90" src="/images/pipeline.jpg" />
+    <img class="w-90" src="/images/kedro-pipeline.svg" />
   </div>
 </div>
 
