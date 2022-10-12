@@ -1,0 +1,20 @@
+#scaled-frame {
+    width: 1000px;
+    height: 2000px;
+    border: 0px;
+}
+
+#scaled-frame {
+    zoom: 0.2;
+    -webkit-transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    overflow: scroll;
+    overflow-y: hidden;
+    height:200%
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #scaled-frame {
+        zoom: 1;
+    }
+}

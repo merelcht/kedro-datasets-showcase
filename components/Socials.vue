@@ -9,18 +9,18 @@
       <carbon-logo-python />
     </a>
     <a
-      href="https://join.slack.com/t/kedro-org/shared_invite/zt-1h262h3k1-kyTVviEsBtkPa3lD4qexMQ"
+      href="https://join.slack.com/t/kedro-org/shared_invite/zt-1eicp0iw6-nkBvDlfAYb1AUJV7DgBIvw"
       target="_blank"
       alt="Discord"
-      class="icon-btn opacity-80 rounded-full !border-none !hover:text-white fill-current text-purple-300"
+      class="icon-btn opacity-80 rounded-full !border-none !hover:text-white fill-current "
     >
-      <carbon-logo-slack />
+      <logos-slack-icon />
     </a>
     <a
       href="https://github.com/kedro-org/kedro"
       target="_blank"
       alt="GitHub"
-      class="icon-btn opacity-80 rounded-full !border-none !hover:text-white"
+      class="icon-btn text-white opacity-60 rounded-full !border-none !hover:text-white !hover:opacity-80"
     >
       <carbon-logo-github />
     </a>
