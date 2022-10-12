@@ -285,8 +285,8 @@ image: #none
   - No need to explicitly add it to the pipeline registry to access it by name (e.g. `kedro run --pipeline=<pipeline_name>`) or through the default pipeline (e.g. `kedro run`).
 
   </div>
-  <div>
-    <img class="w-90" src="/images/kedro-pipeline.svg" />
+  <div class="pt-20 pl-15 rounded-lg">
+    <img src="/images/pipeline-autodiscovery.png" class="rounded-lg"/>
   </div>
 </div>
 
