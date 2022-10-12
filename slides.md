@@ -279,11 +279,11 @@ image: #none
 
 <br>
 
-  - No need to explicitly add it to the pipeline registry to access it by name (e.g. `kedro run --pipeline=&lt;pipeline_name&gt;`) or through the default pipeline (e.g. `kedro run`).
+  - No need to explicitly add it to the pipeline registry to access it by name (e.g. `kedro run --pipeline=<pipeline_name>`) or through the default pipeline (e.g. `kedro run`).
 
   </div>
   <div>
-    <img class="w-90" src="/images/pipeline.jpg" />
+    <img class="w-90" src="/images/kedro-pipeline.svg" />
   </div>
 </div>
 
@@ -308,7 +308,7 @@ layout: two-cols
 <br>
 <br>
 
-- Kedro now supports Rich logging, which turns our logs and tracebacks from boring and hard-to-read to pretty and colourful 🌈
+- Kedro now supports Rich logging, which turns our logs and tracebacks from boring and hard-to-read to pretty and colourful. 🌈
 - We're not done yet! Expect more Rich-related changes to come soon.
 
 ::right::
@@ -393,7 +393,7 @@ url: https://kedro.org/
 <img src="/images/slack_qr.png" alt="Kedro slack invite QR code" class="w-60 h-60"/>
 
 <p id="main">
-We have launched a Kedro Slack organisation, and you should join it
+We have launched a Kedro Slack organisation, and you should join it (by November 30<sup>th</sup> 😉)
 
 You'll be able to collaborate and learn from our 800+ member open-source community that we will also migrate to this new location. Join the new Slack organisation 🎉
 </p>
