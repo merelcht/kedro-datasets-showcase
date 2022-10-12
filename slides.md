@@ -234,18 +234,21 @@ image: #none
 <div class="grid grid-cols-2 gap-4">
   <div>
   <p class="text-1.3em"> <vaadin-file-tree-sub class="ml-2 text-blue-400"/> Improved interactive workflow</p>
-    <ul>
-      <div id="padding" class="m-16"></div>
-      <li>The only recommended way to work with Kedro in Jupyter or IPython is now the Kedro IPython extension.</li>
-      <br>
-      <li>Managed Jupyter instances should load this via `%load_ext kedro.ipython` and use the line magic `%reload_kedro`.</li>
-      <br>
-      <li>`kedro ipython` launches an IPython session that preloads the Kedro IPython extension.</li>
-      <br>
-      <li>`kedro jupyter notebook/lab` creates a custom Jupyter kernel that preloads the Kedro IPython extension and launches a notebook with that kernel selected.</li>
-      <br>
-      <li>The Kedro IPython extension also works with Databricks notebooks.</li>
-    </ul>
+      <div id="padding" class="m-14"></div>
+
+  - The only recommended way to work with Kedro in Jupyter or IPython is now the Kedro IPython extension.
+  
+  - Managed Jupyter instances should load this via `%load_ext kedro.ipython` and use the line magic `%reload_kedro`.
+
+
+  - `kedro ipython` launches an IPython session that preloads the Kedro IPython extension.
+
+
+  - `kedro jupyter notebook/lab` creates a custom Jupyter kernel that preloads the Kedro IPython extension and launches a notebook with that kernel selected.
+
+
+  - The Kedro IPython extension also works with Databricks notebooks.
+    
   </div>
   <div>
     <img class="w-150 m-40 mt-5 ml-5" src="/images/interactive-workflow.gif" />
