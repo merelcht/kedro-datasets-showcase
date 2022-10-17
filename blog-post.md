@@ -9,12 +9,12 @@ You can expect the `0.19.0` release early next year.
 
 We want to remove the sources of breaking changes in Kedro to achieve a stable framework. This is why, in Kedro `0.19.0`, we will move datasets into a separate package to reduce breaking changes associated with dataset dependencies. Our primary goal is to enable Kedro users to keep their packages up to date more easily.
 
-In the past, we have faced challenges like not being able to: 
- - [Add Python 3.9 and 3.10 support](https://github.com/kedro-org/kedro/issues?q=is%3Aissue+python+3.9+is%3Aclosed) to the Kedro framework until all of our datasets had released Python 3.9 and 3.10 support. 
- - Provide new, but workflow-breaking, dataset functionality to our users because the Kedro framework has more conservative versioning i.e. on average we ship a breaking release once a year and users would have to wait that long for changes to the datasets.
+Kedro users were impacted by datasets being part of the Kedro framework in several ways:
+ - Users had to wait until all of our dataset dependencies had released Python 3.9 and 3.10 support before the [Kedro framework was compatible with Python 3.9 and 3.10](https://github.com/kedro-org/kedro/issues?q=is%3Aissue+python+3.9+is%3Aclosed).  
+ - Users could not get new, but workflow-breaking, dataset functionality frequently, because the Kedro framework has more conservative versioning. On average we ship a breaking release once a year and users had to wait that long for changes to the datasets.
 
 The benefits to Kedro users of having datasets in a separate package include: 
- - Kedro becomes more modular, making it possible for users to upgrade only the `kedro-datasets` dependency in production rather than modifying the entire template.
+- Kedro becomes more modular, making it possible for users to upgrade only the `kedro-datasets` dependency in production rather than modifying the entire template.
 - Users can deploy newer datasets with older versions of Kedro and can even use datasets without Kedro. 
 
 ### The new Kedro workflow
