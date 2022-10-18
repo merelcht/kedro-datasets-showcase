@@ -19,7 +19,7 @@ The benefits to Kedro users of having datasets in a separate package include:
 
 ### The new Kedro workflow
 
-Once datasets are moved to the new repository and removed from the core Kedro package, users will need to make three changes:
+Once datasets are moved to the new repository and removed from the core Kedro package in the `0.19.0` release, users will need to make three changes:
 1. In addition to installing Kedro, users will need to install `kedro-datasets` to make use of datasets. Specifically, you will need to run `pip install kedro-datasets[SomeDataSet]` instead of `pip install kedro[SomeDataSet]` to install a dataset.
 2. Use `import kedro_datasets` instead of `import kedro.extras.datasets` to import datasets into code.
 3. Make any dataset updates and contributions to the new `kedro-datasets` repository instead of the core `kedro` one.
