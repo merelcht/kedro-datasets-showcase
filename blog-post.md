@@ -32,7 +32,7 @@ Moving `kedro.extras.datasets` from the framework into a separate package is a b
 - Removing `kedro.extras.datasets` from the core Kedro package when we ship Kedro `0.19.0`.
 
 ### Find out more!
-You can follow any `kedro-datasets` developments and more on [our GitHub repository](https://github.com/kedro-org/kedro/issues/1457). 
+Watch this recording of [the October 2022 Kedro Showcase](https://www.youtube.com/watch?v=MkMWl3jkxAU) to learn more about the changes to Datasets, new features in the 0.18.x releases, and community updates.  
 
 We are very excited about the release of this structure in Kedro `0.19.0`. 
 
