@@ -5,9 +5,9 @@ image: background.png
 <div id="padding" class="mt-5"></div>
 <div grid="~ cols-2 gap-4">
 <div class="mt-10">
-<p class="text-2em text-yellow-500"><span class="bg-dark-900 m-2 mb-0 rounded bg-opacity-60"> Kedro Showcase </span></p><br>
+<p class="text-2em text-yellow-500"><span class="bg-dark-900 m-2 mb-0 rounded bg-opacity-60"> DS Coffee - Kedro Showcase </span></p><br>
 
-### October 2022
+### November 2022
 
 
 </div>
@@ -237,7 +237,7 @@ image: #none
       <div id="padding" class="m-14"></div>
 
   - The only recommended way to work with Kedro in Jupyter or IPython is now the Kedro IPython extension.
-  
+
   - Managed Jupyter instances should load this via `%load_ext kedro.ipython` and use the line magic `%reload_kedro`.
 
 
@@ -248,7 +248,7 @@ image: #none
 
 
   - The Kedro IPython extension also works with Databricks notebooks.
-    
+
   </div>
   <div>
     <img class="w-150 m-40 mt-5 ml-5" src="/images/interactive-workflow.gif" />
@@ -277,7 +277,7 @@ image: #none
 <div class="grid grid-cols-2 gap-4">
   <div class="text-1.2em">
       <div id="padding" class="m-20"></div>
-      
+
   - Pipelines, once created, are now registered automatically.
 
 <br>
@@ -322,6 +322,12 @@ layout: two-cols
 
 <Socials />
 
+<Socials />
+---
+layout: two-cols
+---
+<p class="text-1.3em"> <codicon-graph class=" m-auto mr-5 ml-2 text-red-400"/> Demo </p>
+<Socials />
 ---
 layout: center
 ---
@@ -358,10 +364,10 @@ url: https://kedro.org/
 <div id="padding" class="m-15">
 </div>
 
-- We've now got our very own Kedro website! 
+- We've now got our very own Kedro website!
 <br>
 
-- This is our online home and a centralised hub for all things Kedro. 
+- This is our online home and a centralised hub for all things Kedro.
 <br>
 
 - Here you can find our documentation, tutorials, and links to our online forums where you can join our Kedro community. Check it out!
@@ -444,29 +450,29 @@ Mention Hacktoberfest
 
 ## Plugins 🔌
 <div class="pt-2 pl-40" style="display: flex;">
-  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg"> 
+  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg">
     <img src="/public/ml-flow.png" class="w-45"/>
   </div>
 
   <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg">
-    <img src="/public/neptune.png" class="w-45 rounded-lg"/> 
+    <img src="/public/neptune.png" class="w-45 rounded-lg"/>
   </div>
 
-  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg"> 
-    <img src="/public/airflow.png" class="w-45"/> 
+  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg">
+    <img src="/public/airflow.png" class="w-45"/>
   </div>
 </div>
 <div class="pl-40" style="display: flex;">
-  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg"> 
-    <img src="/public/vertex.jpeg" class="w-45 rounded-lg"/> 
+  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg">
+    <img src="/public/vertex.jpeg" class="w-45 rounded-lg"/>
   </div>
 
-  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg"> 
-    <img src="/public/azure.png" class="w-45"/>  
+  <div style="display: inline;" class="m-2 p-2 bg-dark-400 rounded-lg">
+    <img src="/public/azure.png" class="w-45"/>
   </div>
 
-  <div style="display: inline; position: relative;" class="m-2 p-2 bg-dark-400 rounded-lg"> 
-    <img src="/public/kubeflow.png" class="w-45 rounded-lg"/> 
+  <div style="display: inline; position: relative;" class="m-2 p-2 bg-dark-400 rounded-lg">
+    <img src="/public/kubeflow.png" class="w-45 rounded-lg"/>
   </div>
 </div>
 
@@ -487,11 +493,11 @@ layout: two-cols
 <div id="padding" class="m-15">
 </div>
 
-- Datasets are Kedro's way of dealing with input and output in a data and machine-learning pipeline. 
+- Datasets are Kedro's way of dealing with input and output in a data and machine-learning pipeline.
 
 
 - Kedro supports many datasets out of the box to allow you to process different data formats including Pandas, Plotly, Spark and many more.
-  
+
 - These datasets have lived in Kedro within `kedro/extras/datasets`
 
 
@@ -555,8 +561,8 @@ We want to move the datasets out into a separate package, `kedro-datasets`.
 This means:
 
 - Kedro becomes more modular, making it possible for users to upgrade only the kedro-datasets dependency in production rather than modifying the entire template.
-  
-- Users can leverage newer datasets with older versions of Kedro and can use datasets without Kedro.
+
+- Users can leverage newer datasets with older versions of Kedro.
 
 
 
@@ -569,7 +575,7 @@ layout: two-cols
 
 There are three main changes to be aware of:
 
-1.  In addition to installing Kedro, users will need to install `kedro-datasets` to make use of datasets. 
+1.  In addition to installing Kedro, users will need to install `kedro-datasets` to make use of datasets.
    <br>
 
 
@@ -590,7 +596,7 @@ New workflow ✅
 <br>
 
 ```bash
-pip install kedro-datasets[SomeDataSet] 
+pip install kedro-datasets[SomeDataSet]
 ```
 </div>
 
@@ -603,7 +609,7 @@ layout: two-cols
 
 There are three main changes to be aware of:
 
-1.  In addition to installing Kedro, users will need to install kedro-datasets to make use of datasets. 
+1.  In addition to installing Kedro, users will need to install kedro-datasets to make use of datasets.
    <br>
    <br>
 
@@ -640,7 +646,7 @@ layout: two-cols
 
 There are three main changes to be aware of:
 
-1.  In addition to installing Kedro, users will need to install kedro-datasets to make use of datasets. 
+1.  In addition to installing Kedro, users will need to install kedro-datasets to make use of datasets.
    <br>
    <br>
 
@@ -670,6 +676,49 @@ New workflow ✅
 from kedro_datasets import SomeDataSet
 ```
 </div>
+
+
+
+<Socials />
+---
+layout: quote
+---
+# 📣 Upcoming changes
+
+0.18.4:
+* Rolling out the `kedro-datasets` package
+* `ConfigLoader` internal refactoring - configure file patterns with `settings.py`
+
+0.19:
+* Configuration - a more powerful `ConfigLoader` with `OmegaConf`
+* kedro-datasets - decouple from kedro, flexible to upgrade
+
+<Socials />
+
+<Socials />
+---
+layout: quote
+---
+# 📣 Upcoming changes - `%load_node` line magic for debugging
+Jupyter Workflow:
+https://github.com/kedro-org/kedro/milestone/7
+
+* Create line magic to debug a node in notebook workflow #2009
+https://github.com/kedro-org/kedro/issues/2009
+
+The boring part:
+* Figure out the failing node & fuction automatically
+* Figure out where is the data, pre-load the data
+* Copy the relevant source code into an interactive development session
+
+The more challenging part:
+* The actual debugging process to figure out what's wrong.
+
+Later:
+* More efficient to develop/debug, without rerunning the entire pipeline
+
+<Socials />
+
 
 <Socials />
 ---
